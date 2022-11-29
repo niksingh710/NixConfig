@@ -1,0 +1,2 @@
+@import "./config.rasi"
+@theme "./themes/nikhil-dmenu.rasi"

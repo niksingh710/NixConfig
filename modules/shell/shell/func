@@ -1,0 +1,14 @@
+shell(){
+  exec `readlink /proc/$$/exe`
+}
+
+rebuild(){
+  currDir=`pwd`
+  [ -z "$1" ] && {
+    echo "Enter the host name to build"   
+    return 1
+  }
+  [ -d "$HOME"/.setup ] && cd "$HOME"/.setup || return 1
+  sudo nixos-rebuild switch --flake .#$1 "${@:2}"
+  cd "$currDir"
+}

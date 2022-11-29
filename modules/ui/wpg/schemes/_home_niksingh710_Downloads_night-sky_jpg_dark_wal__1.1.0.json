@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Downloads/night-sky.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E051B",
+        "foreground": "#c98ace",
+        "cursor": "#c98ace"
+    },
+    "colors": {
+        "color0": "#0E051B",
+        "color1": "#4B146C",
+        "color2": "#611575",
+        "color3": "#55425E",
+        "color4": "#A4117A",
+        "color5": "#622596",
+        "color6": "#793AC3",
+        "color7": "#c98ace",
+        "color8": "#8c6090",
+        "color9": "#4B146C",
+        "color10": "#611575",
+        "color11": "#55425E",
+        "color12": "#A4117A",
+        "color13": "#622596",
+        "color14": "#793AC3",
+        "color15": "#c98ace"
+    }
+}

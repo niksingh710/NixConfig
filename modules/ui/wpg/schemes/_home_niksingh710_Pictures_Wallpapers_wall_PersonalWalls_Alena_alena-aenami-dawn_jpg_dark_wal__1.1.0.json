@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/PersonalWalls/Alena/alena-aenami-dawn.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#091220",
+        "foreground": "#f3d8ad",
+        "cursor": "#f3d8ad"
+    },
+    "colors": {
+        "color0": "#091220",
+        "color1": "#6F445C",
+        "color2": "#8B3E57",
+        "color3": "#CF3D59",
+        "color4": "#8E4258",
+        "color5": "#AA4A5C",
+        "color6": "#E55B5E",
+        "color7": "#f3d8ad",
+        "color8": "#aa9779",
+        "color9": "#6F445C",
+        "color10": "#8B3E57",
+        "color11": "#CF3D59",
+        "color12": "#8E4258",
+        "color13": "#AA4A5C",
+        "color14": "#E55B5E",
+        "color15": "#f3d8ad"
+    }
+}

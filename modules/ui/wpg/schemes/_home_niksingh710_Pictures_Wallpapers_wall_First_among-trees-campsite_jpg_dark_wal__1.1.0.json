@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/among-trees-campsite.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#010039",
+        "foreground": "#7be9e6",
+        "cursor": "#7be9e6"
+    },
+    "colors": {
+        "color0": "#010039",
+        "color1": "#046198",
+        "color2": "#038DB5",
+        "color3": "#04A5B6",
+        "color4": "#0598C7",
+        "color5": "#02B0CE",
+        "color6": "#02CDD7",
+        "color7": "#7be9e6",
+        "color8": "#56a3a1",
+        "color9": "#046198",
+        "color10": "#038DB5",
+        "color11": "#04A5B6",
+        "color12": "#0598C7",
+        "color13": "#02B0CE",
+        "color14": "#02CDD7",
+        "color15": "#7be9e6"
+    }
+}

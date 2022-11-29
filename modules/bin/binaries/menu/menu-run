@@ -1,0 +1,8 @@
+#!/bin/sh
+
+hash rofi 2>/dev/null || exit
+pgrep -x rofi &>/dev/null && killall -qs SIGKILL rofi
+
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+
+rofi -show run -display-run "[]= " -config ~/.config/rofi/dmenu-conf.rasi

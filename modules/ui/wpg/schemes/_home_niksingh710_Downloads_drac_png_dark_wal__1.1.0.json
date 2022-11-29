@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Downloads/drac.png",
+    "alpha": "100",
+    "special": {
+        "background": "#030103",
+        "foreground": "#df9ba5",
+        "cursor": "#df9ba5"
+    },
+    "colors": {
+        "color0": "#030103",
+        "color1": "#703F67",
+        "color2": "#D1293E",
+        "color3": "#95385B",
+        "color4": "#D5354C",
+        "color5": "#E1374A",
+        "color6": "#9E4868",
+        "color7": "#df9ba5",
+        "color8": "#9c6c73",
+        "color9": "#703F67",
+        "color10": "#D1293E",
+        "color11": "#95385B",
+        "color12": "#D5354C",
+        "color13": "#E1374A",
+        "color14": "#9E4868",
+        "color15": "#df9ba5"
+    }
+}

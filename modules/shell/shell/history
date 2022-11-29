@@ -1,0 +1,6242 @@
+cd shell
+ls
+cd ..
+rm -rf shell
+cd .config
+ls
+cd shell
+ls
+cat history
+cd
+cd .setup
+ls
+vim modules/shell/zsh.nix
+clear
+ls
+clear
+cd .config/shell
+ls
+cat history
+exec bash
+ls
+clear
+cat history 
+history
+cd
+exit
+cd
+clear
+ls
+cd binaries
+sl
+ls
+clear
+cd
+cd .setup
+ls
+cd modules
+ls
+cd shell
+ls
+cd
+cd .setup
+cd mach
+ls
+vim python.nix
+rm python.nix
+clear
+ls
+vim config.nix
+vim home.nix
+vim usr-pkgs.nix
+vim root-pkgs.nix
+cd ..
+clear
+ls
+cd modules
+ls
+vi terminal
+cd nixpkgs
+ls
+cd 
+clear
+cd .setup/sh
+cd .setup/modules/shell
+ls
+cp ../terminal/foot.nix ./
+ls
+mv foot.nix fzf.nix
+vim fzf.nix
+cp fzf.nix pistol.nix
+vim pistol.nix
+cd /mnt
+ls
+cd BACKARCH
+cd .config/shell
+ls
+cat config
+cd ..
+cd pistol
+ls
+cat pistol.conf
+pcat pistol.conf
+cd ..
+sudo nixos-rebuild switch --flake .#mach
+exec zsh
+clear
+exec zsh
+nix-shell neofetch
+nix-shell -p neofetch
+clear
+exit
+clear
+ls
+nix-shell -p neofetch
+readlink /proc/$$/exe
+exit
+cd /mnt
+ls
+cd BACKARCH
+cd .config
+cd shell
+ls
+vi env
+clear
+echo $SHELL
+nix shell neofetch
+nix shell pfetch
+nix-shell -p neofetch --run zsh
+vim modules/shell/zsh.nix
+vim modules/shell/starship.nix
+clea
+rclear
+clear
+sudo nixos-rebuild switch --flake .#mach
+NIX_BUILD_SHELL=zsh nix-shell neofetch
+NIX_BUILD_SHELL=zsh nix-shell -p neofetch
+exit
+exit
+cd .setup
+ls
+cd modules/shell
+ls
+vim fzf.nix
+cd .config
+ls
+cd ../../
+sudo nixos-rebuild switch --flake .#mach
+fzfz
+fzf
+exec zsh
+clear
+fzf
+cd modules
+cd shell
+vim default.nix
+vim config.nix
+vim default.nix
+cd ../../
+clear
+sudo nixos-rebuild switch --flake .#mach
+vim modules/shell/fzf.nix
+sudo nixos-rebuild switch --flake .#mach
+exec zsh
+fzf
+vim modules/shell/fzf.nix
+fzf --bind=ctrl-space:select --preview='pistol -c $HOME/.config/\
+    pistol/pistol.conf {}' --height=60%
+fzf --bind=ctrl-space:select --preview='pistol {}' --height=60%
+exec zsh
+cd modules
+ls
+cd shell
+ls
+vim config.nix
+vi zsh.nix
+clear
+ls
+vim fzf.nix
+vi config.nix
+vim pistol.nix
+cat pistol.nix >> config.nix
+vim config.nix
+cd ../../
+sudo nixos-rebuild switch --flake .#mach
+vim modules/shell/config.nix
+sudo nixos-rebuild switch --flake .#mach
+cd .setup
+ls
+vim modules/shell/config.nix
+sudo nixos-rebuild switch --flake .#mach
+clear
+ls
+fzf
+vim modules/shell/config.nix
+vim modules/shell/fzf.nix
+fzf --bind=ctrl-space:select --preview='pistol {}' --height=60%
+vim modules/shell/fzf.nix
+sudo nixos-rebuild switch --flake .#mach
+exec zsh
+vim modules/shell/fzf.nix
+fzf --bind=ctrl-space:select --preview='pistol {}' --height=60%
+vim modules/shell/fzf.nix
+sudo nixos-rebuild switch --flake .#mach
+vim modules/shell/fzf.nix
+cd .setup
+sudo nixos-rebuild switch --flake .#mach
+fzf
+fzf --bind=ctrl-space:select --preview='pistol {}' --height=60%
+exec zsh
+fzf
+sudo nixos-rebuild switch --flake .#mach
+fzf
+fzf-share
+cd `fzf-share`
+ls
+vim modules/shell/fzf.nix
+sudo nixos-rebuild switch --flake .#mach
+exec zsh
+clear
+vim modules/shell/fzf.nix
+sudo nixos-rebuild switch --flake .#mach
+exec zsh
+cd .setup
+vim modules/shell/fzf.nix
+echo $FZF_CTRL_T_OPTS
+echo $FZF_ALT_C_OPTS
+exec bash
+echo $FZF_CTRL_T_OPTS
+sudo nixos-rebuild switch --flake .#mach
+fzf
+exec zsh
+echo $FZF_OPTS
+Hyprland
+fzf
+cd .setup
+vim modules/shell/fzf.nix
+sudo nixos-rebuild switch --flake .#mach
+exit
+Hyprland
+cd
+cd .setup
+vim modules/shell/fzf.nix
+clear
+sudo nixos-rebuild switch --flake .#mach
+firefox
+sudo mount /dev/sda1 /mnt
+cd /mnt
+ls
+cd BACKARCH
+ls
+cd .config/shell
+ls
+vim env
+cd ..
+cd sys
+ls
+vim env
+cat env | sed 's/export //g/'
+cat env | sed 's/export //g'
+cd
+cd .setup
+ls
+clear
+ls
+cd common
+ls
+vim sys.nix
+cd ..
+clear
+ls
+cd ..
+cd .setup
+ls
+vim modules/shell/starship.nix
+sudo nixos-rebuild switch --flake .#mach
+vim common/sys.nix
+sudo nixos-rebuild switch --flake .#mach
+vim common/sys.nix
+sudo nixos-rebuild switch --flake .#mach
+vim common/sys.nix
+sudo nixos-rebuild switch --flake .#mach
+vim common/sys.nix
+clear
+sudo nixos-rebuild switch --flake .#mach
+vim common/sys.nix
+sudo nixos-rebuild switch --flake .#mach
+vim common/sys.nix
+sudo nixos-rebuild switch --flake .#mach
+clear
+vim modules/shell/starship.nix
+sudo nixos-rebuild switch --flake .#mach
+sudo nix-collect-garbage -d
+nix-shell -p neofetch 
+uname -r
+clear
+ls
+nix update flake
+nix flake update
+sudo chown niksingh710:users flake.lock
+nix flake update
+ls
+lss
+sudo nixos-rebuild switch --flake .#mach
+nmtui
+clear
+neofetch
+cd
+cd .config/nixpkgs
+ls
+cd
+clear
+ls
+lss
+la
+alias
+la
+cd .setup
+ls
+clear
+ls
+cd mach
+cd
+cd .setup
+vim modules/shell/starship.nix
+nix-shell -p neofetch 
+exit
+vim modules/shell/starship.nix
+exec bash
+exit
+clear
+nmtui
+clear
+ls
+nmtui
+sudo nixos-rebuild switch --flake .#mach
+cd mach
+ls
+vim config.nix
+vim home.nix
+vim config.nix
+vim root-pkgs.nix
+cd ..
+sudo nixos-rebuild switch --flake .#mach
+sudo auto-cpufreq --stats
+sudo auto-cpufreq --install
+sudo auto-cpufreq --stats
+auto-cpufreq --install
+sudo auto-cpufreq --install
+sudo auto-cpufreq --stats
+clear
+ls
+cd mach
+ls
+vim config.nix
+vim home.nix
+vim default.nix
+cp config.nix sys.nix
+vim sys.nix
+cd ..
+clear
+sudo nixos-rebuild switch --flake .#mach
+sudo auto-cpufreq --stats
+clear
+vim mach/root-pkgs.nix
+man nix-env
+clear
+nix-collect-garbage --dry-run
+sudo nix-collect-garbage --dry-run
+hyprctl version
+vim mach/usr-pkgs.nix
+sudo nixos-rebuild switch --flake .#mach
+vim mach/usr-pkgs.nix
+vim flake.nix
+vim devices.nix
+vim mach/usr-pkgs.nix
+sudo nixos-rebuild switch --flake .#mach
+clear
+cd
+discord
+cd .config
+ls
+cd discord
+ls
+cat settings.json
+discord
+systemctl suspend
+clear
+cd
+cd .setup
+ls
+cd mach
+ls
+cd ..
+cd common
+ls
+vim sys.nix
+cd
+cd .config/hypr
+ls
+vim keymaps.conf
+cd
+cd binaries
+ls
+cd bri
+ls
+cd bin
+ls
+cd ..
+cd utils
+cat brightness
+clear
+cd
+clear
+ls
+cd .setup
+ls
+cd common
+ls
+vim sys.nix
+cd
+sudo nixos-rebuild switch --flake .#mach
+cd .setup
+sudo nixos-
+sudo nixos-rebuild switch --flake .#mach
+cd
+cd binaries/utils
+./brightness up
+vim brightness
+./brightness up
+vim brightness
+./brightness up
+vim brightness
+./brightness up
+vim brightness
+./brightness up
+sudo ./brightness up
+./brightness down
+./brightness up
+clearr
+clear
+ls
+cd
+cd Downloads
+ls
+cat 100.py
+ls
+cd .config/shell
+ls
+vim commonrc
+cat /mnt/BACKARCH/binaries/utils/lock
+cat /mnt/BACKARCH/.config/shell/config
+realpath $(dirname ${BASH_SOURCE:-$0})
+vim commonrc
+exec zsh
+vim func
+exec zsh
+vim commonrc
+exec zsh
+vim func
+exec zsh
+vim func
+shell
+clea
+clear
+exit
+shell
+clear
+cd .config/shell
+ls
+vim func
+shell
+rebuild
+cd
+rebuild
+cd
+cd .setup
+rebuild mach
+cd .config/shell
+vim func
+rebuild
+shell
+rebuild
+cd
+rebuild mach
+cd
+clear
+ls
+clear
+cd temp
+ls
+mkdir final
+cd ffi
+cd final
+vim main.py
+nmtui
+clear
+nmtui
+vim text.tx
+vim text.txt
+cat text.txt
+clear
+vim main.
+vim main.py
+python main.py
+vim main.py
+python main.py
+vim main.py
+python main.py
+clear
+ls
+cat main.py
+dcat main.py text.txt
+clear
+dcat main.py text.txt
+python main.py
+dcat main.py text.txt | ~/binaries/bin/opaste -i 4eNL
+clear
+cat main.py
+python main.py
+ls
+vim func
+shell
+cd
+rebuild mach
+nmtui
+rebuild mach
+man home-configuration.nix
+clear
+cd .setup
+ls
+vim mach
+vim mach/root-pkgs.nix
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+vim common/sys.nix
+rebuild mach
+vim mach/root-pkgs.nix
+rebuild mach
+firefox
+cd .config/hypr
+ls
+vim hyprland.conf
+vim execonce.conf
+reboot
+clear
+Hyprland
+firefox
+cd .config/hypr
+ls
+vim hyprland.conf
+vim execonce.conf
+xdg-desktop-portal
+firefox
+cd .local/share
+ls
+cd
+cd .config
+ls
+cd
+clear
+cd .setup/mach
+ls
+vim root-pkgs.nix
+rebuild mach
+vim root-pkgs.nix
+rebuild mach
+nmtui
+vim root-pkgs.nix
+rebuild mach
+reboot
+Hyprland
+firef
+firefox
+cd .config/h
+cd .config/hypr
+ls
+vim execonce.conf
+echo $WAYLAND_DISPLAY
+vim execonce.conf
+echo $XDG_CURRENT_DESKTOP
+vim execonce.conf
+cd
+vim .setup/mach/root-pkgs.nix
+echo $MOZ_ENABLE_WAYLAND
+sudo systemctl status xdg-desktop-portal
+cd .setup
+ls
+vim mach/config.nix
+vim mach/sys.nix
+vim devices.nix
+vim mach/default.nix
+vim mach/config.nix
+vim mach/home.nix
+vim mach/sys.nix
+clear
+vim mach/sys.nix
+vim mach/config.nix
+cd modules
+ls
+mkdir firefox
+cd firefox
+vim default.nix
+cd ..
+mv firefox browser
+cd browser
+ls
+vim firefox.nix
+cp ../shell/config.nix ./
+vim config.nix
+rebuild mach
+vim ../../mach/sys.nix
+vim ../../common/sys.nix
+vim ../../mach/sys.nix
+rebuild mach
+firefox
+reboot
+Hyprland
+firefox
+cd .setup
+ls
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+rebuild mach
+reboot
+Hyprland
+firefox
+slurp
+clear
+firefox
+cd .config/mac
+cd .setup/mach
+ls
+vim hardware-configuration.nix
+vim sys.nix
+ps -e
+ps -e | grep pipewire
+vim sys.nix
+vim home.nix
+vim config.nix
+vim ../modules/browser/config.nix
+rebuild mach
+vim sys.nix
+rebuild mach
+vim home.nix
+vim config.nix
+vim ../modules/browser/config.nix
+reboot
+Hyprland
+ls
+clear
+firefox
+cd .setup
+vim modules/browser/config.nix
+firefox
+clear
+ls
+vim flake.nix
+rebuild mach
+firefox
+Hyprland
+firefox
+python --version
+ping google.com
+clear
+ls
+cd .setup
+ls
+cd de
+clea
+clear
+vim mach
+clear
+ls
+lss
+vim flake.nix
+sudo nix-channel --remove unstable
+sudo nix-channel --update
+clear
+ls
+vim devices.nix
+firefox
+cd bi
+cd 
+cd binaries
+ls
+cd hypr
+ls
+./next-mon
+vim next-mon
+vim wkill
+vim mon-focus
+vim win-mon
+vim ui
+vim cusmove
+vim grimblast
+./grimblast
+./grimblast save screen
+ls
+cd
+rm 2022-11-17T15:52:47,082909284+05:30.png
+clear
+cd .hy
+cd .config/hypr
+ls
+vim keymaps.conf
+vim hyprland.conf
+hyprctl reload
+clear
+vim hyprland.conf
+vim init
+discord
+sudo fc-cache -f
+cd 
+cd binaries
+ls
+cd misc
+ls
+wget https://raw.githubusercontent.com/will8211/unimatrix/master/unimatrix.py -O ./unimatrix
+ls
+chmod +x unimatrix
+clear
+ls
+./logo-distro
+vim logo
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+which cat
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+expr 10 % 2
+./logo-distro
+expr 10 % 2
+expr $RANDOM % 2
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+arr=(1 2 3 4)
+echo ${#arr[@]}
+exec dash
+cd binaries/utils
+ls
+cd ..
+clear
+ls
+cd bin
+ls
+cd ..
+clear
+ls
+cd hypr
+ls
+cd ..
+cd misc
+ls
+./logo-distro
+vim logo
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+which cat
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+vim logo-distro
+./logo-distro
+cat logo
+cat logo | wc
+vim logo-distro
+./logo-distro
+vim logo-distro
+hash neofetch
+hash pfetch
+hash test
+hash
+hash test
+clear
+./logo-distro
+./unimatrix
+cd /mnt
+ls
+clear
+ls
+cd 
+clear
+ls
+cd .local/share/
+ls
+cd
+clear
+firefox
+pavucontrol
+cd .setup
+ls
+vim common/sys.nix
+rebuild mach
+vim common/sys.nix
+rebuild mach
+vim common/sys.nix
+rebuild mach
+discord
+firefox
+cd common
+ls
+vim default.nix
+cd .setup/mach
+cat home.nix
+cd ../modules
+ls
+mkdir rootmodules
+cd rootmodules
+ls
+vim default.nix
+vim intel.nix
+cp ../../common/sys.nix ./
+cat sys.nix
+cat sys.nix >> intel.nix
+vim intel.nix
+cd .setup/mach
+vim h
+vi hardware-configuration.nix
+vim ../../common/sys.nix
+vim ../../mach/hardware-configuration.nix
+vim ../../common/sys.nix
+rebuild mach
+cd ..
+mv rootmodules root-modules
+clear
+rebuild mach
+vim ../../common/sys.nix
+vim ../common/sys.nix
+rebuild mach
+cd /mnt
+cd BACK
+ls
+cd
+sudo mount /dev/sda1 /mnt
+cd /mnt
+ls
+cd BACKARCH
+ls
+clear
+ls
+cd .config/shell
+ls
+cd zsh
+ls
+cat zfunc
+cat config
+clear
+ls
+cat afterinit
+ls completions
+man home-configuration.nix
+cd .setup/
+cd mach
+ls
+vi sys.nix
+vim sys.nix
+vim ../modules/shell/zsh.nix
+cat variables
+pcat variables
+ls
+clear
+ls
+cat config
+cd ..
+cp zsh ~/.setup/modules/shell
+cp -r zsh ~/.setup/modules/shell
+cd ../modules
+ls
+cd shell
+ls
+mv zsh shell
+cd shell
+ls
+cd zsh
+ls
+vim config
+vim zfunc
+vim config
+vim afterinit
+vim config
+clear
+ls
+vim config
+exec bash
+ls
+cat alias
+cd zsh
+cat al
+clear
+ls
+cat config
+history
+history 0
+clear
+vim config 
+ls
+cd ..
+cd ..
+vim zsh.nix 
+cd shell/
+ls
+cd zsh/
+ls
+rm -rf plugins/
+clear
+ls
+cat variables 
+rm -rf variables 
+clear
+ls
+vi config 
+cd ../../
+ls
+vim config.nix 
+vim pistol.nix 
+vim config.nix 
+vim config.nix 
+ls
+vim zsh.nix 
+rebuild mach
+exit
+clear
+ls
+rebuild mach
+vim ../mach/sys.nix
+rebuild mach
+nmtui
+rebuild mach
+cd .setup
+ls
+vim modules/shell/zsh.nix
+vim modules/shell/config.nix
+rebuild mach
+cd 
+cd .config/shell
+ls
+cd zsh
+rm -rf plugins/
+cd
+celar
+clear
+ls
+shell
+clear
+shell
+clear
+ls
+clear
+ls
+clear
+neofetch
+btop
+clear
+ls
+cd modules
+ls
+cd se
+ls
+cd modules
+l
+cd shell
+ls
+vim zsh.nix
+cd shell/zsh
+ls
+vim config
+cd completions
+ls
+cd ..
+celar
+clear
+ls
+vim afterinit
+ls completions
+vi afterinit
+vim config
+cat config | head 5 >> afterinit
+cat config | head -n 5 >> afterinit
+vim afterinit
+clear
+shell
+clear
+shell
+date
+clear
+ls
+vim config
+. ./afterinit
+shell
+vim afterinit
+. ./afterinit
+vim afterinit
+ls completions
+cat completions/completion.zsh
+clear
+ls
+. completions/completion.zsh
+. completions/_colorscript
+clear
+ls
+cat afterinit
+. ./afterinit
+vim config
+cd se
+ls
+cd zsh
+ls
+vim config
+shell
+vim config
+cd .config/shell
+ls
+cd zsh
+ls
+. ./afterinit
+vim afterinit
+. ./afterinit
+vim config
+shell
+vim config
+echo $zvm_after_init_commands
+vim config
+clear
+ls
+vim config
+fzf-history-widget
+vim zfunc
+vim config
+shell
+fcd
+vim zfunc
+bindkey -M viins  | grep '"^R"'
+bindkey "^R" fzf-history-widget
+bindkey -M viins  | grep '"^R"'
+vim config
+vim zfunc
+vim config
+shell
+vim config
+vim zfunc
+clear
+rm afterinit
+clear
+ls
+rm completions/key-bindings.zsh
+clear
+ls
+vim config
+clear
+. ./completions/completion.zsh
+clear
+ls
+vim config
+rm -rf plugins
+clear
+cd
+cd .config/shell
+clear
+ls
+vi zsh/config
+man home-configuration.nix
+man nix
+cd .config/shell/zsh
+vim co
+vim config
+discord
+clear
+ls
+export LESS_TERMCAP_mb=$'\E[01;31m'\
+export LESS_TERMCAP_md=$'\E[01;31m'\
+export LESS_TERMCAP_me=$'\E[0m'\
+export LESS_TERMCAP_se=$'\E[0m'\
+export LESS_TERMCAP_so=$'\E[01;47;34m'\
+export LESS_TERMCAP_ue=$'\E[0m'\
+export LESS_TERMCAP_us=$'\E[01;32m'\
+export LESS=-r\
+
+man nix
+LESS_TERMCAP_md=$'\E[01;31m' LESS_TERMCAP_me=$'\E[0m' GROFF_NO_SGR=1 man man
+cd
+cd .setup/modules/shell/config.nix
+vim .setup/modules/shell/config.nix
+rebuild mach
+vim .setup/modules/shell/config.nix
+rebuild mach
+cd .config/shell
+ls
+cd zsh
+ls
+vim zfunc
+vim config
+ls
+cd
+clear
+jq 
+clear
+cd .setup
+ls
+jq flake.nix
+cat flake.nix | jq
+cat devices.nix
+cat flake.lock
+cat flake.lock | jq
+clear
+man() {\
+        LESS_TERMCAP_mb=$'\e[01;31m'\
+        LESS_TERMCAP_md=$'\e[01;31m' \\
+        LESS_TERMCAP_me=$'\e[0m' \\
+        LESS_TERMCAP_se=$'\e[0m' \\
+        LESS_TERMCAP_so=$'\e[45;93m' \\
+        LESS_TERMCAP_ue=$'\e[0m' \\
+        LESS_TERMCAP_us=$'\e[4;93m' \\
+    \
+        command man "$@"\
+}
+man nix
+neofetch
+nix-env -q
+nix-env --uninstall htop
+nix-env --uninstall pfetch
+nix-env -q
+clear
+pfetch
+clear
+ls
+cd .setup
+ls
+firefox
+clear
+cd .setup
+ls
+cd m
+cd mac
+ls
+cd set
+cd mach
+ls
+zoxide --list
+zoxide --help
+zoxide query
+clear
+ls
+vim sys.nix
+vim usr-pkgs.nix
+cd
+clear
+lsblk
+cd 
+cd /mnt
+ls
+cd Os
+ls
+cd iso
+ls
+ls | grep -i pop
+recent
+cd /mnt
+find -type f -name balena
+find -type f -name balena /
+find -type f -name balena ./
+clear
+ls
+clear
+ls
+cd
+clear
+ls
+cd /mnt
+ls
+cd BACKARCH/Downloads
+ls
+pistol
+clear
+cd .setup
+ls
+celar
+clear
+ls
+cd temp
+ls
+cd ..
+clear
+cd temp/dotfiles-alpha/scripts/binaries/bin/
+ls
+./balena-etcher
+clear
+ls
+./balena-etcher
+cp balena-etcher ~/temp
+cd temp
+ls
+./balena-etcher
+ls
+chmod +x balena-etcher
+./balena-etcher
+cd /me
+cd /mnt
+cd Games/ubisoft-connect/drive_c/users/niksingh710/Downloads/
+ls
+cp balenaEtcher-1.10.0-x64.AppImage ~/temp
+lss
+cd ~/temp
+ls
+rm balena*
+clear
+cd
+cd /me
+cd /mnt
+ls
+cd FBACK
+ls
+cd Dow
+ls
+cd ..
+ls
+cd ..
+cd FBACK
+ls
+dotfiles/scripts/binaries/bin/balena-etcher 
+cd ..
+ls
+cd KUBAK
+cd ..
+cd Bak
+ls
+cp balena-etcher-electron-1.7.9-linux-x64.zip ~/temp
+cd ~/temp
+clear
+cd
+clear
+cd .setup
+ls
+cd mach
+ls
+vim config.nix
+vim usr-pkgs.nix
+vim ../common/sys.nix
+glxgears
+vkcube
+cd temp
+ls
+cd ../modules
+ls
+cd shell
+ls
+vim pistol.nix
+vim default.nix
+rebuild mach
+vim pistol.nix
+rebuild mach
+cd Downloads
+ls
+cd
+ls
+cd Downloads
+ls
+./balenaEtcher-1.10.0-x64.AppImage
+chmod +x balenaEtcher-1.10.0-x64.AppImage
+./balenaEtcher-1.10.0-x64.AppImage
+ls
+exec bash
+lsblk
+clear
+ls
+vim config.nix
+vim ../../
+rebuild mach
+man configuration.nix
+cd
+cd temp
+ls
+unzip balena-etcher-electron-1.7.9-linux-x64.zip
+ls
+./balenaEtcher-1.7.9-x64.AppImage
+shell
+./balenaEtcher-1.7.9-x64.AppImage
+appimage-run ./balena
+appimage-run ./balenaEtcher-1.7.9-x64.AppImage
+./balenaEtcher-1.7.9-x64.AppImage
+appimage-run balenaEtcher-1.7.9-x64.AppImage
+clear
+vim mach/config.nix
+cd
+cd Downloads
+ls
+./balenaEtcher-1.10.0-x64.AppImage
+clear
+nmtui
+clear
+nmtui
+sudo systemctl restart NetworkManager
+clear
+ls
+nmtui
+clear
+ls
+shell
+nmtui
+clear
+cd ftp://192.168.144.42:2221
+clear
+nix-env -iA nautilus
+nix-env -iA nixos.nautilus
+nix-env -iA nixos.gnome.nautilus
+lsblk
+sudo umount /mnt
+sudo mount /dev/sdc1 /mnt
+cd /mnt
+ls
+sudo cp pop-os_22.04_amd64_nvidia_17.iso ~/temp
+ls
+cd
+cd temp
+ls
+lss
+sudo chown niksingh710:users pop-os_22.04_amd64_nvidia_17.iso
+clear
+lss
+cd Downloads
+ls
+appimage-run ./balenaEtcher-1.10.0-x64.AppImage
+sudo umount /mnt
+clear
+lsblk
+sudo appimage-run ./balenaEtcher-1.10.0-x64.AppImage
+pkexec
+pkexec appimage-run ./balenaEtcher-1.10.0-x64.AppImage
+clear
+appimage-run ./balenaEtcher-1.10.0-x64.AppImage
+clear
+pkexec appimage-run ./balenaEtcher-1.10.0-x64.AppImage
+clear
+ls
+appimage-run ./balenaEtcher-1.10.0-x64.AppImage
+clear
+appimage-run ./balenaEtcher-1.10.0-x64.AppImage
+lsblk
+sudo mount /dev/sdc1 /mnt
+cd /mnt
+cp ~/Downloads/balenaEtcher-1.10.0-x64.AppImage ./
+sudo cp ~/Downloads/balenaEtcher-1.10.0-x64.AppImage ./
+ls
+sudo mount /dev/sdc1 /mnt
+lsblk
+sudo mount /dev/sdd1 /mnt
+clear
+ls
+lss
+cd
+cd /mnt
+ls
+sudo cp ~/Downloads/balenaEtcher-1.10.0-x64.AppImage ./
+ls
+sudo umount /mnt
+cd ..
+sudo umount /mnt
+cd
+clear
+ls
+cd .setup
+ls
+cd mach
+ls
+vim sys.nix
+cd
+clear
+ls
+cd Downloads
+appimage-run ./balenaEtcher-1.10.0-x64.AppImage
+nmtui
+cd /mnt
+ls
+sudo mount /dev/sda1 /mnt
+ls
+cd ..
+cd /mnt
+ls
+cd KUBAK
+ls
+cd ..
+clear
+ls
+cd FBACK
+ls
+cd ..
+cd
+clear
+ls
+cd Downloads
+ls
+sudo ./balenaEtcher-1.10.0-x64.AppImage
+appimage-run ./balenaEtcher-1.10.0-x64.AppImage
+cd
+cd .setup
+ls
+cd mach
+ls
+vim sys.nix
+vi root-pkgs.nix
+vim sys.nix
+rebuild mach
+cd
+shell
+reboot
+./balenaEtcher-1.10.0-x64.AppImage 
+clear
+ls
+./balenaEtcher-1.10.0-x64.AppImage 
+cat balenaEtcher-1.10.0-x64.AppImage 
+clear
+ls
+./balenaEtcher-1.10.0-x64.AppImage 
+./balenaEtcher-1.10.0-x64.AppImage 
+./balenaEtcher-1.10.0-x64.AppImage 
+./balenaEtcher-1.10.0-x64.AppImage 
+appimage-run
+nix-shell -p appimage-run
+Hyprland
+lsblk
+sudo fdisk /dev/sdc
+lsblk
+sudo mkfs.ext4 /dev/sdc
+lsblk
+sudo fdisk /dev/sdc
+clear
+exit
+sudo mount /dev/sdc1 /mnt
+sudo mkfs.ext4 /dev/sdc1
+sudo mount /dev/sdc1 /mnt
+cd /mnt
+ls
+cp ~/Downloads/balenaEtcher-1.10.0-x64.AppImage ./
+sudo cp ~/Downloads/balenaEtcher-1.10.0-x64.AppImage ./
+sudo cp ~/Downloads/pop-os_22.04_amd64_nvidia_17.iso ./
+ls
+lss
+rm pop-os_22.04_amd64_nvidia_17.iso
+sudo rm pop-os_22.04_amd64_nvidia_17.iso
+cd
+cd temp
+ls
+lss
+sudo cp pop-os_22.04_amd64_nvidia_17.iso /mnt
+cd /mnt
+ls
+lss
+cd
+sudo umount /mnt
+cd /mnt
+lsa
+ls
+cd
+cd /mnt
+ls
+cd
+lsblk
+sudo mount /dev/sda1 /mnt
+ls
+cd /mnt
+ls
+cd FBACK
+ls
+cd ..
+cd KUBAK
+ls
+cd ..
+cd is
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+ls
+cd archBak
+ls
+cd ..
+cd clone
+ls
+cd ..
+clear
+ls
+cd Bak
+ls
+cd newbak
+ls
+cd
+clear
+cd /mnt
+ls
+cd CURRBAK
+ls
+cd binaries
+ls
+cd bin
+ls
+cd ..
+cd KU
+cd work
+ls
+cd ..
+clear
+ls
+cd Bak
+ls
+cd newbak
+ls
+cd Documents
+ls
+cd temp
+ls
+cd
+clear
+firefox
+cd Downloads
+appimage-run ./balenaEtcher-1.7.3-x64.AppImage
+cd Downloads
+ls
+appimage-run ./balenaEtcher-1.7.3-x64.AppImage
+lsblk
+sudo fdisk /dev/sdc
+sudo mkfs.ext4 /dev/sdc1
+sudo mount /dev/sdc1 /mnt
+ls
+sudo cp balenaEtcher-1.7.3-x64.AppImage /mnt
+cd /mnt
+ls
+cd ..
+sudo umount /mnt
+lsblk
+sudo fdisk /dev/sdc
+sudo mkfs.ext4 /dev/sdc1
+cd
+sudo mkdir /pd
+sudo mount /dev/sdc1 /pd
+sudo mount /dev/sda1 /mnt
+clear
+ls
+cd /p
+cd /ps
+cd /pd
+ls
+cd /mnt
+ls
+cd Os
+ls
+cd iso
+ls
+sudo cp kubuntu-22.04.1-desktop-amd64.iso /pd
+cd /p
+ls
+lss
+cd 
+sudo umount /pd
+cd Downloads
+ls
+appimage-run ./balenaEtcher-1.7.3-x64.AppImage
+cd /p
+ls
+cd
+nix-env -iA nixos.gnome.nautilus
+lsblk
+sudo fdisk /dev/sdc
+sudo mkfs.ext4 /dev/sdc1
+cd Downloads
+ls
+lss
+sudo mount /dev/sdc1 /pd
+sudo cp pop-os_22.04_amd64_nvidia_17\(1\).iso /pd/pop-os-nvi.iso
+cd /p
+ls
+lss
+du -sh
+du -sh ./
+du -sh ./pop-os-nvi.iso
+clear
+cd
+sudo umount /pd
+firefox
+nautilus
+cd Downloads
+ls
+appimage-run ./balenaEtcher-1.10.0-x64.AppImage
+clear
+nix-env -iA nixos.popscicle
+nix-env -iA nixos.popsicle
+popsicle
+popsicle --help
+shell
+popsicle-gtk
+sudo popsicle-gtk
+pkexec popsicle-gtk
+popsicle-gtk
+lsblk
+cd Downloads
+ls
+appimage-run ./Popsicle_USB_Flasher-1.3.0-x86_64.AppImage
+lsblk
+sudo fdisk /dev/sdc
+clear
+sudo mkfs.ext4 /dev/sdc1
+sudo mount /dev/sdc1 /pd
+sudo cp kubuntu-22.10-desktop-amd64.iso /pd
+cd ..
+clear
+sudo umount /pd
+cd /p
+ls
+cd
+sudo mount /dev/sdc1 /pd
+ls
+lsblk
+sudo fdisk /dev/sdc
+sudo mkfs.ext4 /dev/sdc1
+sudo mount /dev/sdc1 /pd
+sudo cp ~/Downloads/kubuntu-22.10-desktop-amd64.iso /pd
+sudo umount /pd/
+cd /p
+ls
+l
+cd
+l
+cd /mnt
+clear
+ls
+lss
+clear
+du -sh ./
+nix-env -q
+cd
+clera
+ls;
+clear
+ls
+nmtui
+ls
+clear
+cd .setup
+ls
+cd
+cd .config/shell
+ls
+cd zsh
+ls
+vim zfunc
+. zfu
+. ./zfunc
+vim config
+. ./zfunc
+shell
+clear
+vim config
+vim zfunc
+clear
+ls
+shell
+vim zfunc
+vim config
+shell
+vim zfunc
+ls
+vim config
+vim ~/.setup
+rebuild mach
+shell
+ls
+vim ~/.setup/modules/shell/zsh.nix
+rebuild mach
+vim ~/.setup/modules/shell/zsh.nix
+clear
+ls
+vim config
+shell
+vim config
+vim ~/.setup/modules/shell/zsh.nix
+firefox
+ls
+vim ~/.setup/modules/shell/zsh.nix
+cp config config-afterinit
+cp config config-beforeinit
+vim config-afterinit
+ls
+vim config-beforeinit
+vim config-afterinit
+cat config-afterinit >> zfunc
+vim zfunc
+rm config
+ls
+clear
+vim config-afterinit
+rebuild mach
+ls
+shell
+vim ~/.setup/modules/shell/zsh.nix
+vim ~/.zshrc
+vim ~/.setup/modules/shell/zsh.nix
+clear
+ls
+vim zfunc
+clear
+shell
+clear
+rebuild mach
+cd
+clear
+ls
+cd .setup
+ls
+vim mach/usr-pkgs.nix
+rebuild mach
+shell
+wpg-install.sh -h
+cd
+cd .config
+ls
+cd wp
+wpg-install.sh -g
+wpg
+wpg-install.sh -g
+cd 
+cd .themes
+ls
+readlink FlatColor
+cd
+cd .local/share
+ls
+cd themes
+ls
+rm -rf FlatColor; git clone https://github.com/niksingh710/FlatColor
+ls
+clear
+ls
+cd
+clear
+ls
+cd .config/wpg
+ls
+cd templates
+ls
+readlink gtk2
+lss
+cd ..
+ls
+cd schemes
+ls
+cd ..
+cd samples
+ls
+cd ..
+cd wallpapers
+ls
+cd ..
+cd templates
+ls
+cd ..
+vim wpg.conf
+clear
+ls
+cd templates
+ls
+cd 
+cd .setup
+ls
+cd modules
+ls
+mkdir wpg
+cd wpg
+ls
+vim default.nix
+cd ..
+mv wpg ui
+cd ui
+ls
+clear
+ls
+cp ../shell/zsh.nix ./
+ls
+mv zsh.nix wpg.nix
+vim wpg.nix
+cp ../shell/config.nix ./
+ls
+vim config.nix
+ls
+mv ~/.config/wpg/ ./
+clear
+ls
+cd wpg
+ls
+cd templates
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+ls
+vim wpg.nix
+rm wpg.nix
+mv config.nix wpg.nix
+vim wpg
+vim wpg.nix
+cd wpg
+s
+ls
+cd templates
+cd tem
+cd
+cd .setup/modules/ui/wpg
+ls
+cd templates
+ls
+lss
+cd ..
+mv ~/.local/share/themes/FlatColor ./
+vim wpg.nix
+ls
+clear
+cd wpg/templates
+ls
+lss
+ln --help
+clear
+lss
+ln -sf gtk2 ../FlatColor/gtk-2.0/gtkrc
+cd .setup
+ls
+cd mach
+ls
+cd ..
+cd modules
+ls
+cd ui
+ls
+cat FlatColor/gtk-2.0/gtkrc
+ln -sf gtk2 ../../FlatColor/gtk-2.0/gtkrc
+ls
+lss
+cd FlatColor
+ls
+cd gtk-2.0
+ls
+cat gtkrc
+cat gtkrc.base
+clear
+cd ..
+rm -rf FlatColor
+git clone https://github.com/niksingh710/FlatColor
+cp ../../FlatColor/gtk-2.0/gtkrc.base ./
+ls
+clear
+ls
+lss
+ln -sf ../../FlatColor/gtk-2.0/gtkrc ./
+ls
+lss
+cat gtkrc
+clear
+ls
+rm gtkrc
+clear
+ls
+lss
+cp ../../FlatColor/gtk-3.0/gtk.css.base ./
+cp ../../FlatColor/gtk-3.20/gtk.css.base ./
+ls
+clear
+ls
+lss
+cd FlatColor
+ls
+clear
+ls
+cd gtk-2.0
+ls
+clear
+ls
+cat gtkrc
+clearr
+clear
+ln -sf ../../wpg/templates/gtkrc ./gtkrc
+ls
+cat gtkrc
+lss
+cd ..
+cd gtk-3.0
+ln -sf ../../wpg/templates/gtk.css ./gtk.css
+cd ..
+cd gtk-3.20
+ln -sf ../../wpg/templates/gtk.css ./gtk.css
+lss
+clear
+ls
+rm -rf gtk3.*
+ls
+rm -rf gtk2*
+clear
+ls
+clear
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+ls
+cd FlatColor
+cd ..
+vim wpg
+vim wpg.nix
+ls
+rebuild mach
+ls.
+ls
+clear
+ls
+cd
+cd .config
+ls
+cd
+cd .themes
+ls
+lss
+cd
+cd .local/share/themes
+ls
+vim wpg.nix
+ls
+cd
+cd .th
+ls
+rm FlatColor
+cd
+clear
+ls
+vim ../../mach/home.nix
+rebuild mach
+vim wpg.nix
+rebuild mach
+cd .themes
+ls
+lss
+cd
+cd .local/share/themes
+ls
+lss
+cd FlatColor
+ls
+git status
+cd gtk-2.0
+ls
+lss 
+cd
+clear
+ls
+vim wpg.nix
+clear
+cd FlatColor
+ls
+cd gtk-2.0
+ls
+lss
+ln -sf ~/.config/wpg/templates/gtkrc ./
+ls
+lss
+nix-repl
+ls
+cd ..
+vim wpg.nix
+cd .setup/ui
+ls
+cd ~/.setup/ui
+cd ~/.setup/modules/ui
+ls
+cd FlatColor
+ls
+cd gtk-3.0
+ls
+rebuild mach
+vim wpg.nix
+rebuild mach
+vim wpg.nix
+rebuild mach
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd mach/home.nix
+vim mach/home.nix
+vim mach/default.nix
+vim mach/config.nix
+cd mach
+ls
+vim default.nix
+vim home.nix
+cd ..
+vim devices.nix
+vim flake.nix
+rebuild mach
+vim modules/ui/wpg.nix
+ls
+cd modules/ui
+ls
+vim wpg.nix
+cd
+cd .local/share/themes/FlatColor
+ls
+cd gtk-2.0
+ls
+lss
+vim ../../flake.nix
+rebuild mach
+vim ../../flake.nix
+rebuild mach
+clear
+ls
+vim wpg.nix
+vim ../shell/config.nix
+rebuild mach
+vim ../shell/config.nix
+vim ../../flake.nix
+vim wpg.nix
+cd .setup
+ls
+vim flake.nix
+rebuild mach
+vim flake.nix
+vim ../shell/config.nix
+rebuild mach
+vim ../shell/config.nix
+rebuild mach
+cd
+cd .local/share/themes/FlatColor
+ls
+cd .local/share/themes/
+ls
+lss
+cd
+cd .config
+ls
+lss
+ls
+clear
+lss
+cd `readlink ./wpg/`
+ls
+cd
+clear
+cd .config
+ls
+lss
+lss
+cd shell
+ls
+vim func
+clear
+clear
+ls
+vim ../shell/alias.nix
+vim ../shell/bash.nix
+vim ../shell/zsh.nix
+vim ../nixpkgs/conf.nix
+vim ../browser/config.nix
+vim ../python/python.nix
+vim ../root-modules/default.nix
+vim ../root-modules/intel.nix
+vim ../shell/config.nix
+vim ../terminal
+clear
+ls
+vim wpg.nix
+rebuild mach
+vim wpg.nix
+rebuild mach
+vim wpg.nix
+clear
+cd
+cd .setup
+ls
+vim flake.nix
+vim devices.nix
+vim mach/home.nix
+vim modules/ui/wpg.nix
+vim mach/home.nix
+rebuild mach
+vim devices.nix
+vim mach/home.nix
+rebuild mach
+vim modules/ui/wpg.nix
+rebuild mach
+vim modules/ui/wpg.nix
+vim mach/home.nix
+rebuild mach
+vim mach/home.nix
+vim modules/ui/wpg.nix
+vim modules/shell/config.nix
+rebuild mach
+vim modules/shell/config.nix
+vim flake.
+vim flake.nix
+rebuild mach
+cd modules
+ls
+vim browser
+vim nixpkgs
+clear
+ls
+cd ui
+ls
+vim wpg
+vim wpg.nix
+ls
+cd ..
+ls
+vim shell/config.nix
+rebuild mach
+vim nixpkgs/conf.nix
+rebuild mach
+cd
+ls
+cd .config
+lss
+cd ui
+ls
+clear
+ls
+vim wpg.nix
+rebuild mach
+cd wpg/templates
+ls
+cd ..
+vim wpg.nix
+rebuild mach
+cd .local/share/themes/
+ls
+cd FlatColor
+ls
+cd gtk-2.0
+ls
+lss
+vim wpg.nix
+rebuild mach
+cd
+cd .local/share/themes/
+ls
+cd FlatColor
+ls
+cd gtk-2.0
+ls
+cd ..
+cd gtk-3.0
+ls
+cd .config/wpg/templates
+ls
+touch gtk.css
+ls
+lss
+rm gtk.css
+ls
+lss
+clear
+cd .
+cd
+cd .setup
+ls
+cd modules
+ls
+cd ui
+ls
+cd FlatColor
+ls
+rm -rf .git
+rm README.md
+rm LICENSE
+clear
+ls
+cat /sys/class/power_supply/BAT1/capacity
+ls
+clear
+ls
+cd /mnt
+ls
+cd BACKARCH
+ls
+cd .config/wpg/templates
+ls
+cp btop.base ~/.config/wpg/templates
+cp colors.sh.base ~/.config/wpg/templates
+cp colors-def.css.base ~/.config/wpg/templates
+ls
+cp wpg.rasi.base ~/.config/wpg/templates
+ls
+clear
+ls
+cd
+cd .setup
+ls
+cd modules
+ls
+cd ui
+ls
+vim default.nix
+cp wpg.nix gtk.nix
+vim gtk.nix
+cd
+cd .setup
+ls
+vim flake.nix
+vim common/sys.nix
+vim modules/terminal/foot.nix
+vim flake.nix
+rebuild mach
+vim ../../flake.nix
+vim ../../mach/home.nix
+vim ../../mach/config.nix
+vim ../../mach/default.nix
+vim ../../mach/home.nix
+rebuild mach
+cd
+clear
+ls
+cd .config
+ls
+cd b
+cd .co
+ls
+cd btop
+ls
+cd themes
+ls
+clear
+ls
+clera
+clear
+ls
+cd ..
+vim btop.conf
+ls
+cat /sys/class/power_supply/BAT1/capacity
+clear
+ls
+cd wpg
+ls
+cd templates
+ls
+cat btop.base
+clear
+ls
+cd ..
+ls
+cd ..
+vim wpg.nix
+rebuild mach
+vim gtk.nix
+ls
+vim default.nix
+vim ../../devices.nix
+rebuild mach
+vim ../../devices.nix
+rebuild mach
+ls
+cat ../terminal/foot.nix
+cat ../shell/zsh.nix
+vim gtk.nix
+rebuild mach
+vim gtk.nix
+cat ../shell/zsh.nix
+vim gtk.nix
+rebuild mach
+vim gtk.nix
+rebuild mach
+vim gtk.nix
+rebuild mach
+vim gtk.nix
+rebuild mach
+vim gtk.nix
+rebuild mach
+vim gtk.nix
+rebuild mach
+vim gtk.nix
+rebuild mach
+ls
+cd ..
+cd th
+ls
+cat FlatColor
+ls
+pwd
+cd bto
+ls
+cd themes
+ls
+lss
+vim wpg.nix
+clear
+cd
+cd Downloads
+ls
+cd
+cd .setup
+ls
+vim mach/usr-pkgs.nix
+rebuild mach
+shell
+feh ./night-sky.jpg
+wpg --help
+wpg -s ./night-sky.jpg
+ls
+wpg -s ~/Downloads/night-sky.jpg
+pavucontrol
+clear
+ls
+neofetch
+clear
+wpg
+cd
+cd .config
+ls
+cd wpg
+vim wpg.conf
+ls
+cd ..
+ls
+lss
+cd
+cd .config/shell
+ls
+vim func
+cd
+clear
+ls
+cd .setup
+ls
+cd modules
+ls
+cd shell
+ls
+vim config.nix
+vim ..
+clear
+cd
+cd .config/wpg
+ls
+vim test
+ls
+cat te
+cat test
+cd ..
+cd ui
+ls
+cd wpg
+ls
+rm test
+lss
+vim wpg.conf
+ls
+vim sequences
+vim keywords.conf
+clear
+ls
+sudo vim wpg.conf 
+ls
+pwd
+vim wpg.conf
+sudo rm wpg.conf
+ls
+clear
+wpg -s ~/Downloads/night-sky.jpg
+ls
+vim wpg.conf
+ls
+lss
+cp wpg.conf wpg.back
+ls
+sudo rm wpg.conf
+ls
+sudo chown niksingh710:users wpg.back
+ls
+vim wpg.back
+cat wpg.back > wpg.conf
+vim wpg.conf
+rm wpg.back
+ls
+clear
+wpg -s ~/Downloads/drac.png
+ls
+neofetch
+clear
+ls
+vim wpg.conf
+wpg
+nautilus
+cd .local/share/icons
+ls
+lss
+ls -a
+ls
+cd ..
+ls
+clear
+cat ~/.config/wpg/sequences
+ls
+clear
+cd
+mkdir Pictures
+cd Pictures
+ls
+gc https://github.com/Corrupter-rot/Wallpapers.git
+git clone https://github.com/Corrupter-rot/Wallpapers.git
+ls
+cd Wallpapers
+ls
+cd ..
+cd Wallpapers
+rm -rf .git
+clear
+ls
+cd PersonalWalls
+ls
+cd ..
+cd Second
+ls
+cd Gruvy
+ls
+wpg -s ./Gruvy_Space.jpg
+wpg -s "./Gruvy_Space.jpg"
+wpg -s ~/Pictures/Wallpapers/Second/Gruvy./Gruvy_Space.jpg
+pdw
+pwd
+wpg -s `pwd`/Gruvy_Space.jpg
+vim ~/.setup/modules/python/python.nix
+rebuild mach
+vim ~/.setup/modules/python/python.nix
+rebuild mach
+vim ~/.setup/modules/python/python.nix
+clear
+pip install haishoku
+sudo python3 -m pip install --upgrade pip
+clear
+vim ~/.config/wpg/wpg.conf
+wpg -s `pwd`/Gruvy_Space.jpg
+feh Gruvy_Space.jpg
+cp Gruvy_Space.jpg ../../../
+clear
+cd
+clear
+ls
+cd Pictures
+ls
+cp Gruvy_Space.jpg ./Wallpapers
+ls
+rm Gruvy_Space.jpg
+ls
+cd Wallpapers
+ls
+cd ..
+mv Wallpapers wall
+cd
+cd .setup
+ls
+vim modules/ui/wpg.nix
+ls
+cp -r ~/Pictures/wall/Gruvy_Space.jpg ./modules/ui
+ls
+cd modules/ui
+ls
+mkdir wall
+mv Gruvy_Space.jpg wall
+vim wpg
+vim wpg.nix
+ls
+cd wall
+ls
+rebuild mach
+cd
+cd Pictures
+ls
+cd Wallpapers
+ls
+cd ..
+mv wall ./Wallpapers
+clear
+ls
+clear
+cd .config/shell
+vim commonrc
+shell
+vim commonrc
+shell
+ls
+clear
+ls
+cd
+cd .setup
+ls
+cd modules
+ls
+cd shell
+ls
+vim zsh.nix
+rebuild mach
+shell
+bto
+btop
+cd
+cd .config
+ls
+cd b
+ls
+cd themes
+ls
+cat FlatColor
+clear
+ls
+cd ..
+ls
+cat btop.conf
+cd
+cd .setup
+ls
+vim modules/ui/wpg.nix
+rebuild mach
+cd bt
+ls
+cd themes
+ls
+cd ..
+clear
+btop
+ls
+cat btop.conf
+clear
+ls
+cd ..
+clear
+cp -r btop ~/.setup/modules/ui/
+cd ~/.setup/modules
+ls
+cd ui
+ls
+vim wpg.nix
+ls
+cd btop
+lsl
+ls
+pwd
+cd ..
+clear
+ls
+vim wpg.nix
+rebuild mach
+clear
+ls
+vim wpg.nix
+rebuild mach
+vim wpg.nix
+rebuild mach
+sudo rm -rf ~/.config/btop
+rebuild mach
+cd btop
+ls
+cd themes
+ls
+btop
+cd
+cd .config
+ls
+lss
+cd
+cd .setup
+vim modules/ui/wpg.nix
+clear
+ls
+cd modules/ui
+ls
+cd btop
+ls
+cd themes
+ls
+lss
+cd ..
+clear
+ls
+cd themes
+ls
+cd ..
+clear
+ls
+cd ..
+vim wpg.nix
+rebuild mach
+btop
+clear
+ls
+cd
+cd .h
+cd .config/h
+cd .config
+ls
+cd hypr
+ls
+vim init
+vim keymaps.conf
+cd ~/binaries/wa
+cd ~/binaries/
+ls
+cd wa
+cd
+cd bi
+ls
+cd wal
+ls
+./init
+vim init
+vim set-pywal
+vim set-wal
+./init
+vim ~/.setup/mach/usr-pkgs.nix
+rebuild mach
+./init
+ls
+vim init
+./set-wal
+ls
+shell
+./init
+./set-wal
+vim set-wal
+./init
+./set-
+./set-wal
+vim set-wal
+./init
+./set-wal
+./set-pywal
+vim set-pywal
+./init
+vim set-pywal
+clear
+ls
+cd
+cear
+clear
+ls
+cd
+cd .config/hypr
+ls
+vim init
+vim ~/binaries/hypr
+clear
+ls
+cd ..
+ls
+firefox
+cd .setup
+ls
+cd common
+lsl
+ls
+vim sys.nix
+ls
+vim nix.nix
+cd ..
+cd mach
+ls
+vim sys.nix
+pavucontrol
+cd binaries/utils
+ls
+vim volume
+pamixer
+nix-env -iA pamixer
+nix-env -iA nixos.pamixer
+./volume up
+vim volume
+./volume up
+vim volume
+./volume up
+rebuild mach
+pavucontrol
+reboot
+Hyprland
+pavucontrol
+firefox
+cd Downloads
+ls
+tar xvf GoogleDot-Black.tar.gz
+ls
+cd GoogleDot-Black
+cd ..
+clear
+ls
+mv GoogleDot-Black ~/.setup/modules/ui/
+vim ~/.setup/modules/ui/wpg.nix
+ls
+cd .setup/modules/u
+ls
+vim ~/.setup/modules/ui/gtk.nix
+rebuild mach
+Hyprland
+cd .icons
+ls
+lss
+reboot
+Hyprland
+ls
+clear
+firefox
+hyprctl setcursor GoogleDot-Black
+hyprctl setcursor GoogleDot-Black 24
+cd .config/hypr
+ls
+cd
+cd .setup
+cd modules
+ls
+cd ui
+ls
+cd
+cd .config/hypr
+ls
+vim execonce.conf
+Hyprland
+ls
+firefox
+cd .setup
+ls
+vim common/users.nix
+vim common/sys.nix
+vim mach/sys.nix
+pkexec popsicle-gtk
+pkexec echo hi
+echo $SHELL
+sudo su
+clear
+pkexec echo hi
+SHELL=$SHELL pkexec echo hi
+rebuild mach
+pavucontrol
+vim mach/sys.nix
+rebuild mach
+cd .setup
+ls
+cd common
+ls
+vim sys.nix
+cd ..
+clear
+ls
+vim mach/sys.nix
+pavucontrol
+vim mach/sys.nix
+rebuild mach
+pavucontrol
+nix-env -iA nixos.alsamixer
+reboot
+Hyprland
+neofetch
+pfetch
+neofetch
+pavucontrol
+firefox
+systemctl status pipewire
+sudo systemctl restart pipewire
+systemctl status pipewire
+clear
+reboot
+Hyprland
+cd .setup
+ls
+pavucontrol
+vim mach/sys.nix
+rebuild mach
+systemctl status pipewire
+clear
+firefox
+systemctl list-units --state=failed
+sudo systemctl list-units --state=failed
+cd .setup
+vim mach/sys.nix
+groups niksingh710
+pgrep -x pipewire
+pipewire
+pavucontrol
+vim common/users.nix
+vim mach/sys.nix
+rebuild mach
+pavucontrol
+pipewire
+pavucontrol
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+rebuild mach
+alsamixer
+nix-env -iA nixos.emacs28Packages.alsamixer
+alsamixer
+shell
+alsamixer
+nix-env --uninstall nixos.emacs28Packages.alsamixer
+nix-env --uninstall emacs28Packages.alsamixer
+vim mach/sys.nix
+rebuild mach
+pipewire
+pavucontrol
+pipewire
+pavucontrol
+pipewire-avb 
+pw
+clear
+vim mach/sys.nix
+rebuild mach
+pavucontrol
+exit
+lspci
+clear
+Hyprland
+pavucontrol
+pipewire
+pavucontrol
+cd .setup
+vim mach/sys.nix
+rebuild mach
+pavucontrol
+pipewire
+pavucontrol
+sudo systemctl enable pipewire-pulse
+clear
+firefox
+clear
+ls
+cd mach
+ls
+cat hardware-configuration.nix
+auto-cpufreq --install
+auto-cpufreq --stats
+clear
+sudo systemctl status pipewire
+vim mach/sys.nix
+vim sys.nix
+rebuild mach
+vim sys.nix
+rebuild mach
+vim sys.nix
+rebuild mach
+sudo systemctl status pipewire
+reboot
+sudo systemctl status pipewire
+sudo systemctl restart pipewire
+sudo systemctl unmask pipewire
+Hyprland
+pavucontrol
+cd .setup
+ls
+cd modules
+ls
+cd ui
+ls
+vim wpg/wpg.conf 
+vim gtk.nix
+rebuild mach
+firefo
+firefox
+pavucontrol
+nautilus
+clear
+ls
+cd ~/binaries
+cd hypr
+ls
+vim ui
+cd ..
+clear
+ls
+cd wal
+ls
+vim set-pywal
+clear
+cd
+cd .setup
+ls
+vim modules/ui/wpg/wpg.conf 
+clear
+neofetch
+ls
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+rebuild mach
+exit
+Hyprland
+ls
+clear
+firefox
+cd .setup
+vim mach/sys.nix
+rebuild mach
+systemctl --user status xdg-desktop-portal-wlr
+systemctl --user status pipewire wireplumber
+systemctl --user status xdg-desktop-portal-wlr
+sudo systemctl start xdg-desktop-portal-wlr
+vim mach/sys.nix
+rebuild mach
+firefox
+vim modules/ui/gtk.nix
+reboot
+Hyprland
+sudo systemctl status xdg-desktop-portal-wlr
+sudo systemctl --user status xdg-desktop-portal-wlr
+systemctl --user status xdg-desktop-portal-wlr
+firefox
+hyprctl --help
+hyprctl clients
+clear
+cd .setup
+ls
+clear
+ls
+sudo systemctl status dconf
+clear
+vim mach/sys.nix
+vim modules/ui/gtk.nix
+rebuild mach
+vim modules/ui/gtk.nix
+rebuild mach
+firefox
+exit
+Hyprland
+firefox
+sudo nix-collect-garbage -d
+celar
+ls
+clear
+ls
+clear
+ls
+cd .setup
+sl
+ls
+clear
+ls
+vim devices.nix
+clear
+ls
+cd mach
+ls
+vim root-pkgs.nix
+clear
+cd /mnt
+ls
+sudo mount /dev/sda1 /mnt
+ls
+cd BAC
+ls
+cd .config
+ls
+cd rofi
+ls
+cat wpg.rasi
+clear
+ls
+cat nikhil.rasi
+clear
+ls
+cat config.rasi
+clear
+ls
+cd cuts
+ls
+./launch.sh
+cd
+clear
+ls
+cd rofi
+ls
+cat nikhil.rasi
+celar
+clear
+ls
+cat wpg.rasi
+cat nikhil.rasi
+clear
+ls
+cat config.rasi
+firefox
+ls
+nix-env -iA nixos.glxinfo
+glxgears
+vim ~/.setup/mach/usr-pkgs.nix
+vim ~/.setup/common/sys.nix
+rebuild mach
+nix-env --uninstall nixos.glxinfo
+nix-env --uninstall glxinfo
+nix-env --q
+sudo nix-env --q
+sudo nix-env -q
+nix-env -q
+nix-env --uninstall pamixer popsicle-unstable emacs-alsamixer
+clear
+nix-shell -p pfetch
+python --version
+discord
+clear
+exit
+vim ~/.setup/modules/shell/starship.nix
+nix-shell -p neofetch 
+exit
+vim ~/.setup/modules/shell/starship.nix
+rebuild mach
+nix-shell -p neofetch 
+clear
+exit
+clera
+clear
+cd .setup
+ls
+cd modules/python
+ls
+vim python.nix
+rebuild mach
+discord
+vim python.nix
+clear
+cd
+cd .setup
+ls
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+vim mach/config.nix
+rebuild mach
+clelar
+clear
+vim mach/usr-pkgs.nix 
+rebuild mach
+vim mach/usr-pkgs.nix 
+rebuild mach
+tdesktop
+shell
+vim mach/usr-pkgs.nix 
+tdesktop
+shell
+telegram-desktop
+fractal
+vim mach/sys.nix
+vim mach/root-pkgs.nix
+rebuild mach
+fractal
+vim .setup/mach/config.nix
+vim .setup/mach/sys.nix
+vim .setup/mach/config.nix
+rebuild mach
+vim .setup/mach/config.nix
+vim .setup/mach/sys.nix
+vim .setup/mach/config.nix
+rebuild mach
+vim .setup/mach/sys.nix
+rebuild mach
+fractal
+seahorse
+reboot
+Hyprland
+ls
+clear
+ls
+clear
+fractal
+firefox
+fractal
+vim .setup/mach/sys.nix
+vim .setup/mach/usr-pkgs.nix
+rebuild mach
+clear
+cd .setup
+ls
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+vim flake.nix
+vim devices.nix j
+vim devices.nix 
+cd mach
+ls
+vim default.nix
+clearr
+clear
+cd ..
+vim modules/python/python.nix
+clear
+ls
+rebuild mach
+vim devices.nix
+vim flake.nix
+rebuild mach
+vim mach/home.nix
+rebuild mach
+vim mach/home.nix
+vim modules/python/python.nix
+vim mach/home.nix
+vim devices.nix
+rebuild mach
+vim devices.nix
+rebuild mach
+clear
+ls
+vim modules/python/python.nix
+vim mach/usr-pkgs.nix
+vim mach/root-pkgs.nix
+rebuild mach
+vim mach/usr-pkgs.nix
+vim mach/root-pkgs.nix
+vim flake.nix
+vim devices.nix
+rebuild mach
+vim devices.nix
+rebuild mach
+vim devices.nix
+rebuild mach
+vim devices.nix
+rebuild mach
+vim devices.nix
+rebuild mach
+vim flake.
+vim devices.nix
+vim modules/python/python.nix
+rebuild mach
+vim mach/root-pkgs.nix
+rebuild mach
+python 
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+wpg
+neofetch
+haishoku
+numpy
+rebuild mach
+numpy
+clear
+shell
+numpy
+matplotlib
+clear
+pythom
+python
+neofetch
+wpg
+neofetch
+firefox
+cd .setup
+ls
+cat modules/python/python.nix >> ./mach/root-pkgs.nix
+vim mach/root-pkgs.nix
+vim modules/python/python.nix
+rebuild mach
+vim mach/root-pkgs.nix
+rebuild mach
+shell
+haishoku
+numpy
+python
+clear
+python
+cd /nix/store/sv762x1hfqr29sx3i1adhhhh36rbb0yb-python3-3.9.9-env/lib/python3.9/site-packages
+ls
+cd haishoku
+ls
+cd
+clear
+ls
+pip install haishoku
+lear
+clearr
+clear
+cd .setup
+ls
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+shell
+echo $PATH
+cd 
+cd .nix-profile
+ls
+cd bin
+ls
+cd .
+cd
+cd .s
+vim modules/python/python.nix
+Hyprland
+haishoku
+ls
+fire
+firefox
+discord
+cd .setup
+ls
+cd mach
+l
+cd ..
+cd modules
+ls
+cd python/
+cat python.nix
+date
+cd .setup
+ls
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+nix-shell -p 'python.withPackages(ps: with ps; [ numpy ])'
+numpy
+python
+python
+exit
+nix-shell -p 'python.withPackages(ps: with ps; [ numpy haishoku ])'
+vim modules/python/python.nix
+clear
+ls
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+cat modules/python/python.nix >> ./mach/root-pkgs.nix
+vim mach/root-pkgs.nix
+vim modules/python/python.nix
+rebuild mach
+vim mach/root-pkgs.nix
+rebuild mach
+python
+vim common/sys.nix
+vim mach/root-pkgs.nix
+vim mach/usr-pkgs.nix
+vim common/default.nix
+vim common/home.nix
+clear
+vim mach/root-pkgs.nix
+rebuild mach
+shell
+python
+clear
+vim mach/root-pkgs.nix
+rebuild mach
+python
+vim mach/root-pkgs.nix
+reb 
+rebuild mach
+vim mach/root-pkgs.nix
+rebuild mach
+shell
+python
+haishoku
+vim mach/root-pkgs.nix
+rebuild mach
+shell
+python
+exit
+vim mach/root-pkgs.nix
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+python
+haishoku
+nix-shell -p 'python.withPackages(ps: with ps; [ numpy haishoku ])
+nix-shell -p 'python.withPackages(ps: with ps; [ numpy haishoku ])'
+vim modules/python/python.nix
+rebuild mach
+Hyprland
+ls
+haishoku
+vim modules/python/python.nix
+cd .setup
+vim modules/python/python.nix
+firefox
+vim modules/python/python.nix
+cd .setup
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+re 
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+rebuild mach
+vim modules/python/python.nix
+cd modules/python
+ls
+cp python.nix python.nix.bak
+vim python.nix
+rebuild mach
+vim python.nix
+rebuild mach
+rm python.nix
+mv python.nix.bak python.nix
+vim python.nix
+rebuild mach
+vim python.nix
+rebuild mach
+clear
+ls
+cd
+clear
+ls
+cd .config
+cd nixpkgs
+ls
+vim config.nix
+shell
+nix-env -i env-test
+vim config.nix
+nix-env -i env-test
+vim config.nix
+cd
+cd temp
+ls
+nix shell github:DavHau/mach-nix
+nix-shell -p mach-nix
+clear
+mkdir te
+mkdir tes
+cd tes
+ls
+clearr
+clear
+vim requirements.txtx
+vim requirements.txt
+mach-nix env ./env -r requirements.txt
+nix-shell ./env
+fire
+firefo
+firefox
+haishoku
+exit
+clear
+ls
+nix-env --uninstall mach-nix
+nix-env -q
+clear
+cd
+cd temp
+git clone https://github.com/LanceGin/haishoku
+ls
+cd haishoku
+ls
+cd haishoku
+ls
+chmod +x haishoku.py
+./haishoku.py
+chmod -x haishoku.py
+python haishoku.py
+vim haishoku.py
+clear
+vim haishoku.py
+ls
+python haishoku.py
+cd ..
+ls
+python3 -m haishoku
+python3 -m haishoku.haishoku
+which `python3 -m haishoku.haishoku
+which `python3 -m haishoku.haishoku`
+haishoku.haishoku
+python
+clear
+ls
+vim setup.py
+clear
+ls
+python
+pip freeze
+clear
+cd
+clear
+cd .setup
+ls
+vim modules/python/python.nix
+rebuild mach
+python -m haishoku.haishoku
+alias haishoku="python -m haishoku.haishoku"
+wpg -s ~/Pictures/Wallpapers/Second/Gruvy/Gruvy_Space.jpg
+feh ~/Pictures/Wallpapers/Gruvy_Space.jpg
+wpg -s ~/Pictures/Wallpapers/Gruvy_Space.jpg
+wpg -s ~/Pictures/Wallpapers/Gruvy_Space.jpg --backend haishoku
+wpg -s ~/Pictures/Wallpapers/Gruvy_Space.jpg --backend "python -m haishoku.haishoku"
+wal --backend
+wpg --backend
+alias haishoku="python -m haishoku.haishoku"
+haishoku
+wpg -s ~/Pictures/Wallpapers/Gruvy_Space.jpg --backend haishoku
+cd
+cd temp
+ls
+vim haishoku
+cd tes
+ls
+vim haishoku
+chmod +x haishoku
+./haishoku
+clear
+ls
+mkdir bin
+mv haishoku bin
+cd bin
+ls
+export PATH=$PATH:`pwd`
+echo $PATH
+wpg -s ~/Pictures/Wallpapers/Gruvy_Space.jpg --backend haishoku
+hash haishoku
+ls
+command -v haishoku
+ls
+cp haishoku ~/.local/bin
+haishoku
+command -v haishoku
+wpg -s ~/Pictures/Wallpapers/Gruvy_Space.jpg --backend haishoku
+python -m wal
+python -m pywal
+python -m wal.wal
+python -m haishoku
+vim .setup/modules/python/python.nix
+rebuild mach
+btop
+wal
+vim .setup/modules/python/python.nix
+rebuild mach
+haishoku
+rm ~/.local/bin/haishoku
+clear
+ls
+cd .local/bin
+ls
+cd
+clear
+shell
+wal
+discord
+python
+vim .setup/modules/python/python.nix
+clear
+cd
+clear
+ls
+nix-shell
+nix-shell -p qrcode
+qrcode hi
+
+qrcode -f "HI"
+exit()
+exi
+exit
+clear
+cd .setup
+ls
+vim mach/usr-pkgs.nix
+vim modules
+cd modules
+ls
+mkdir npm
+cd npm
+ls
+vim default.nix
+vim npm.nix
+cp ../python/python.nix ./npm.nix
+vim npm.nix
+rebuild mach
+qrcode
+pnpm i -g qrcode
+vim ~/.setup/mach/sys.nix
+rebuild mach
+pnpm i -g qrcode
+shell
+pnpm i -g qrcode
+echo $PNPM_HOME
+vim ~/.setup/mach/sys.nix
+cd .setup
+vim flake.nix
+pnpm i -g qrcode
+exit
+Hyprland
+pnpm i -g qrcode
+echo $PNPM_HOME
+pnpm help add
+clear
+pnpm i -g qrcode
+cd .setup
+ls
+cd mach
+ls
+cd ..
+cd modules
+l
+cd npm
+ls
+cd ..
+mv npm/ node
+cd node
+ls
+vim default.nix
+cp ../shell/config.nix ./
+vim config.nix
+mkdir pnpm
+mv config.nix pnpm.nix
+rebuild mach
+clear
+pnpm i -g qrcode
+echo $PNPM_HOME
+lss
+la
+lsa
+ls -a
+cd
+la
+cd .setup
+cd modules
+ls
+cd ..
+vim mach/home.nix
+rebuild mach
+vim modules/node/npm.nix
+cat modules/node/npm.nix >> mach/sys.nix
+vim mach/sys.nix
+cat modules/node/npm.nix >> mach/config.nix
+vim mach/config.nix
+rebuild mach
+cd modules
+ls
+cd node
+ls
+rm npm.nix
+clear
+rebuild mach
+vim default.nix
+rebuild mach
+firefox
+vim mach/config.nix
+cd ../../../
+cd .setup
+vim mach/config.nix
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+vim mach/config.nix
+rebuild mach
+vim mach/config.nix
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+rebuild mach
+vim mach/sys.nix
+rebuild mach
+vim modules/node/pnpm
+ls
+cd modules
+ls
+cd node
+ls
+cd pnpm
+ls
+cd 
+cd .pnpm
+ls
+cd
+reboot
+clear
+ls
+Hyprland
+ls
+pnpm i -g qrcode
+cd .setup/modules
+ls
+cd shell/
+ls
+vim config.nix
+cd shell
+ls
+vim commonrc
+sudo mount /dev/sda1 /mnt
+rebuild mach
+cd .config/shell
+ls
+cp /mnt/BACKARCH/.config/shell/path ./
+vim path
+sudo rm -rf ~/.pnpm
+clear
+vim commonrc
+vim path
+rebuild mach
+shell
+pnpm i -g qrcode
+qrcode
+qrcode hi
+clear
+pnpm uninstall qrcode
+pnpm uninstall -g qrcode
+firefox
+pnpm rm -g qrcode
+pnpm install
+cd .p
+ls
+pnpm install
+pnpm root -g
+cd global/5/node_modules
+ls
+cd
+clear
+pnpm rm -g qrcode
+pip install haishoku --user
+cd .local/bin
+ls
+pip install haishoku --user
+nix repl
+cd
+cd .setup
+ls
+vim mach/sys.nix
+vim mach/root-pkgs.nix
+vim modules/python/python.nix
+vim mach/root-pkgs.nix
+rebuild mach
+pnpm rm -g qrcode
+pnpm virtual-store-dir config
+cd
+pnpm rm -g qrcode
+pnpm rm qrcode
+pnpm --help
+pnpm store status
+pnpm ls -g
+pnpm rm -g qrcode
+clear
+nvim
+cd .setup
+ls
+vim mach/usr-pkgs.nix
+rebuild mach
+make
+vim mach/usr-pkgs.nix
+rebuild mach
+vim mach/usr-pkgs.nix
+rebuild mach
+vim mach/usr-pkgs.nix
+rebuild mach
+c++
+g++
+gcc 
+vim mach/usr-pkgs.nix
+rebuild mach
+gcc
+shell
+g++
+clear
+make
+cd
+LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+npm 
+clera
+clear
+ls
+LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+nvim --version
+shell
+lvim
+clear
+lvim
+cd temp
+ls
+lvim op.py
+telegram-desktop
+cd .setup
+ls
+lvim devices.nix
+vim mach/usr-pkgs.nix
+lvim devices.nix
+clear
+btop
+clear
+telegram-desktop
+cd
+cd .setup
+ls
+lvim mach/usr-pkgs.nix
+clear
+lvim mach/usr-pkgs.nix
+vim mach/config.nix
+lvim mach/config.nix
+sudo mount /dev/sda1 /mnt
+cat /mnt/BACKARCH/.config/udiskie/config.yml
+rebuild mach
+lvim mach/config.nix
+rebuild mach
+vim mach/config.nix
+lvim mach/config.nix
+rebuild mach
+shell
+notify-send hi
+lvim mach/usr-pkgs.nix
+rebuild mach
+shell
+notify-send hi
+lsblk
+sudo fdisk sdb
+sudo fdisk /dev/sdb
+sudo mkfs -t ntfs /dev/sdb1
+lvim mach/usr-pkgs.nix
+vim mach/sys.nix
+lvim mach/root-pkgs.nix
+clear
+rebuild mach
+shell
+sudo mkfs.ntfs /dev/sdb1
+reboor
+reboot
+Hyprland
+cd /run
+ls
+cd mount
+ls
+cd
+lsblk
+sudo mount /dev/sdb1 /mnt
+ls
+udiskie
+cd
+cd .config
+ls
+cd systemd
+ls
+cd user
+ls
+cat udiskie.service
+cd
+clear
+systemctl --user status udiskie
+clear
+cd Downloads
+ls
+firefox
+cd Downloads
+ls
+unrar x MotoGP\ 15\ CP\ \[www.PcGamesPunch.com\].rar
+ls
+mv MotoGP.15-CP\ \[www.PcGamesPunch.com\] /mnt 
+cd 
+sudo umount /mnt
+ls
+cd /mnt
+ls
+sudo mount /dev/sdb1 /mnt
+ls
+lsblk
+cd /mnt
+ls
+sudo mount /dev/sdb1 /mnt
+lablk
+lsblk
+cd /mnt
+ls
+sudo mount /dev/sdb1 /mnt
+sudo fdisk /dev/sdb
+lsblk
+sudo fdisk /dev/sdb1
+lsblk
+sudo su
+lvim .setup/mach/root-pkgs.nix 
+rebuild mach
+lvim .setup/mach/root-pkgs.nix 
+rebuild mach
+lvim .setup/modules
+rebuild mach
+shell
+ls
+go --version
+lvim .setup/mach/config.nix
+lvim .setup/mach/home.nix
+rebuild mach
+lvim .setup/mach/home.nix
+vim .setup/modules/go/go.nix
+rebuild mach
+vim .setup/modules/go/go.nix
+rebuild mach
+vim .setup/modules/go/go.nix
+rebuild mach
+vim .setup/modules/go/go.nix
+rebuild mach
+lvim .setup/modules/go/go.nix
+rebuild mach
+rebuild mach --imppure
+rebuild mach --impure
+lvim .setup/modules/go/go.nix
+rebuild mach --impure
+rebuild mach 
+lvim .setup/modules/go/go.nix
+discord
+nix run
+cd .setup
+nix run
+rebuild mach 
+lvim .setup/modules/go/go.nix
+rebuild mach 
+cd .setup
+nix flake update
+rebuild mach 
+lsblk
+sudo mount /dev/sdB1 /mnt
+ls /dev
+ls /dev | grep sd
+sudo mount /dev/sdb1 /mnt
+btop
+sudo mount /dev/sdb1 /mnt
+cd .setup
+vim flake.
+vim flake.nix
+rebuild mach 
+vim modules/go/go.nix
+nautilus
+go install github.com/niksingh710/simplehttp@latest
+go --version
+cd .se
+vim modules/go/go.nix
+rebuild mach 
+lsblk
+sudo umount /dev/sdb1
+ls
+lsblk
+clear
+ls
+lsblk
+sudo mount /dev/sdb1 /mnt
+btop
+cd .config
+ls
+cd
+cd .setup
+ls
+vim mach/sys.nix
+vim flake.nix
+vim devices.nix
+vim flake.nix
+rebuild mach 
+vim mach/sys.nix
+rebuild mach 
+nau
+nautilus
+nmtui
+tele
+telegram-desktop
+go --version
+udiskctl
+udiskiectl
+lsblk
+mount /dev/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt
+dmesg
+sudo dmesg
+reboot
+Hyprland
+lsblk
+sudo mount /dev/sdb1 /mnt
+cd /mnt
+ls
+cd
+cd Downloads
+ls
+unrar x MotoGP\ 15\ CP\ \[www.PcGamesPunch.com\].rar
+cp -r MotoGP.15-CP\ \[www.PcGamesPunch.com\] /mnt
+sudo umount /mnt
+nmtui
+lsof
+nmtui
+clear
+ls
+cd
+clear
+ls
+lvim
+firefox
+dmesg
+firefox
+cd .setup
+ls
+vim mach/sys.nix
+rebuild mach 
+dmesg
+reboot
+Hyprland
+dmesg
+ls
+firefox
+go install github.com/niksingh710/simplehttp@latest
+clear
+ls
+cd go
+ls
+cd bin
+ls
+cd
+clear
+nmtui
+cd .setup
+ls
+lvim modules/go/go.nix
+rebuild mach 
+nix-shell -p nix-info --run "nix-info -m"
+cat modules/go/go.nix
+vim .setup/modules/go/go.nix
+rebuild mach 
+shell
+echo $PATH
+clear
+ls
+cd .setup/common
+ls
+vim sys.nix
+cd ..
+lvim mach/usr-pkgs.nix
+vim mach/config.nix
+rebuild mach 
+vim mach/config.nix
+vim mach/sys.nix
+rebuild mach 
+shell
+adb devices
+fastboot devices
+clear
+vim common/sys.nix
+rebuild mach 
+vim common/sys.nix
+rebuild mach 
+vim common/sys.nix
+rebuild mach 
+cd modules
+ls
+mkdir eww
+cd eww
+ls
+clear
+ls
+cp ../go/* ./
+ls
+vim default.nix
+mv go.nix eww.nix
+vim eww.nix
+mkdir eww-config
+ls
+vim eww.nix
+cd ..
+mv eww bar
+cd ..
+vim mach/home.nix
+rebuild mach 
+vim modules/bar/eww.nix
+rebuild mach 
+shell
+eww
+cd
+cd temp
+ls
+vim ../.setup/mach/usr-pkgs.nix
+rebuild mach 
+svn checkout https://github.com/ljmill/dotfiles/trunk/eww
+cd eww
+ls
+eww
+eww open
+clear
+ls
+cd isobar
+ls
+vim eww.yuck
+eww -c ./ bar
+eww
+clear
+ls
+eww
+eww -c ./ bar
+eww -c ./ 
+eww -c ./ open bar
+eww -c ./ open 
+eww -c ./ open bar
+btop
+eww kill bar
+eww kill
+killall eww
+clear
+cd
+cd .se
+ls
+cd mach
+ls
+vim sys.nix
+vim root-pkgs.nix
+rebuild mach 
+vim root-pkgs.nix
+rebuild mach 
+cat /sys/class/power_supply/BAT1/capacity
+vim hardware-configuration.nix
+vim sys.nix
+vim root-pkgs.nix
+vim usr-pkgs.nix
+ls
+cd ..
+vim common/users.nix
+rebuild mach 
+shell
+virt-manager
+clear
+ls
+cd
+clearr
+clear
+lutris
+btop
+cd .setup
+ls
+clear
+ls
+vim mach/sys.nix
+lvim mach/sys.nix
+cd
+cd .config/hypr
+ls
+vim execonce.conf
+cd
+cd .setup
+ls
+vim mach/usr-pkgs.nix
+lvim mach/sys.nix
+rebuild mach 
+reboot
+Hyprland
+clear
+ls
+btop
+pkexec echo hi
+pkexec seahorse
+firefox
+cd .setup
+ls
+vim mach/sys.nix
+cd
+vim .setup/mach/usr-pkgs.nix
+rebuild mach 
+clear
+sudo nix-collect-garbage -d
+267690.24 // 1024
+bc 267690.24 // 1024
+clear
+cd .setup
+vim mach/config.nix
+vim mach/usr-pkgs.nix
+vim mach/config.nix
+vim common/sys.nix
+clear
+ls
+cd mach
+ls
+vim sys.nix
+cd /mnt
+ls
+sudo mount /dev/sda1 /mnt
+ls
+cd
+cd /mnt
+ls
+cd .co
+ls
+cd
+cd /mnt/.co
+cd /mnt
+ls
+cd BACKARCH
+ls
+cd .config
+ls
+clear
+ls
+cd ..
+cd binaries
+ls
+cd utils
+ls
+vim idle
+clear
+ls
+vim home.nix
+vim config.nix
+vim sys.nix
+lvim sys.nix
+vim sys.nix
+clear
+cd ..
+ls
+clear
+ls
+cd modules
+ls
+mv ~/binaries ./
+mkdir bin
+mv binaries bin
+ls
+cd bin
+ls
+cp ../terminal/foot.nix ./
+vim foot.nix
+rm foot.nix
+cp ../shell/config.nix ./
+vim config.nix
+vim default.nix
+cd ../../
+vim mach/home.nix
+vim mach/sys.nix
+cd .setup/modules/bin
+ls
+cd binaries
+ls
+cd utils
+ls
+cat lock
+ped
+pwd
+vim lock
+vim mach/usr-pkgs.nix
+rebuild mach 
+lvim mach/sys.nix
+vim mach/config.nix
+clear
+lvim mach/config.nix
+rebuild mach 
+ping google.com
+rebuild mach 
+vim mach/config.nix
+vim mach/sys.nix
+lvim mach/sys.nix
+rebuild mach 
+vim mach/config.nix
+rebuild mach 
+cd ~/.local/share/applications
+ls
+cd
+cd .setup
+vim mach/config.nix
+rebuild mach 
+vim mach/config.nix
+rebuild mach 
+btop
+clear
+ls
+./lock
+vim lock
+pwd
+vim lock
+cd
+ls
+cd 
+cd .config
+cat mimeapps.list
+cd .setup
+ls
+vim mach/config.nix
+cd
+mv Pictures Pic
+ls
+rebuild mach 
+ls
+cd Pictures
+ls
+cd Wallpapers
+ls
+cd ..
+clear
+ls
+cd Pic
+cd
+cd Pic
+cd
+cd Pictures
+ls
+cd Wallpapers
+ls
+cd wall
+c
+dclear
+cd
+clear
+ls
+cd binaries/
+ls
+cd utils
+ls
+./lock
+cp -r /mnt/FBACK/Pictures/icns/ ~/Pictures
+feh ~/Pictures/icns/Pengu.png
+cp ~/Pictures/icns/Pengu.png ~/Pictures/icns/tux.png
+./lock
+killall swaylock
+cd
+cd .setup
+vim flake.nix
+rebuild mach 
+pgrep -x swayidle
+pkill --help
+clear
+pgrep -x swayidle
+clear
+hash swayidle
+clear
+rebuild mach 
+hash swaylock
+cd
+cd binaries/utils
+ls
+./lock
+killall swaylock
+reboot
+Hyprland
+cd binaries/utils
+ls
+./lock
+swaylock
+killall swaylock
+firefox
+cd .setup
+ls
+vim con
+vim mach/config.nix
+vim mach/sys.nix
+rebuild mach 
+swaylock
+cd
+cd binaries/utils
+ls
+pgrep -x swayidle
+./lock
+clear
+cd
+clear
+cd .setup
+ls
+vim mach/sys.nix
+vim mach/config.nix
+vim mach/root-pkgs.nix
+rebuild mach 
+pgrep -x swayidle
+clear
+vim mach/sys.nix
+vim mach/config.nix
+shell
+loginctl lock-session
+clear
+vim mach/config.nix
+rebuild mach 
+shell
+loginctl lock-session
+vim mach/config.nix
+rebuild mach 
+shell
+loginctl lock-session
+pgrep -x swayidle
+swayidle
+clear
+vim mach/config.nix
+cd binaries/utils
+ls
+cat idle
+rebuild mach 
+man swayidle
+clear
+shell
+loginctl lock-session
+clear
+pgrep -x swayidle
+vim mach/config.nix
+vim devices.nix
+lvim devices.nix
+lvim flake.
+lvim flake.nix
+c
+cd
+clear
+ls
+cd .setup
+lvim common/users.nix
+vim common/sys.nix
+clear
+ls
+./idle
+vim idle
+./i
+./idle
+vim idle
+shell
+hash swaylock
+./idle
+vim idle
+pgrep -x swaylock
+vim idle
+./idle
+pgrep -x swayid
+pgrep -x swayidl
+pgrep -x swayidle
+clear
+vim idle
+./idle
+pgrep -x swayidle
+loginctl lock-session
+killall swayidle
+./lock
+ls
+cat lock
+clear
+ls
+vim mach/config.nix
+udiskie
+notify-send hi
+cd
+cd .config
+ls
+cat udiskie/config.yml
+cd udiskie
+ls
+cat config.yml
+cd /mnt
+ls
+cd
+sudo mount /dev/sda1 /mnt
+cd /mnt
+ls
+cd BACKARCH
+ls
+cd .config/udiskie
+ls
+ca config.yml
+cat config.yml
+rebuild mach 
+vim mach/config.nix
+rebuild mach 
+vim common/users.nix
+rebuild mach 
+pgrep -x swayidle
+shell
+pgrep -x swayidle
+cat config.yml
+clear
+ls
+lsblk
+cd /run
+ls
+clear
+lsj
+ls
+clear
+cd
+clear
+cd .setup
+ls
+vim modules/go/go.nix
+rebuild mach 
+sudo nixos-rebuild switch --flake .#mach --impure
+vim common/users.nix
+vim common/nix.nix
+vim common/users.nix
+rebuild mach 
+sudo nixos-rebuild switch --flake .#mach --impure
+cd
+rm -rf go
+sudo rm -rf go
+clear
+vim common/nix.nix
+sudo nixos-rebuild switch --flake .#mach --impure
+cd go
+ls
+vim modules/go/go.nix
+rebuild mach 
+sudo nixos-rebuild switch --flake .#mach --impure
+shell
+cd go
+ls
+cd src
+ls
+./simplehttp
+ls
+cd
+clear
+cd go
+ls
+cd
+clear
+vim modules/go/go.nix
+vim modules/node/pnpm.nix
+cd go
+ls
+lst
+cd src/simplehttp
+ls
+cat main.go
+go run main.go
+ls
+cd ..
+clear
+ls
+lst simplehttp
+vim modules/go/go.nix
+ls
+clear
+ls
+cd simplehttp
+ls
+vim main.go
+clear
+ls
+cd cmd
+ls
+cat root.go
+cd ..
+clear
+ls
+vim main.go
+cd cmd
+ls
+go run root.go
+go run root.go -d ./ --port 2002
+clear
+ls
+cd
+rebuild mach 
+clear
+ls
+clear
+ls
+pgrep -x swayidle
+vim mach/sys.nix
+clear
+cd
+cd .config/shell
+vim func
+rebuild mach 
+shell
+rebuild mach 
+rebuild mach 123
+rebuild mach 123 23
+vim func
+rebuild mach 
+shell
+discord
+cat ~/.setup/mach/config.nix
+systemctl --type=target
+clear
+cd .setup
+ls
+cd modules
+ls
+mkdir hyprland
+cd hyprland
+ls
+cd ..
+clear
+ls
+cd hyprland
+ls
+cp ../bin/config.nix ./
+ls
+vim default.nix
+ls
+mv ~/.config/hypr ./
+rm -rf ~/.config/hypr*
+clear
+ls
+vim config.nix
+clear
+lsl
+ls
+cd hypr
+ls
+c d..
+cd ..
+clear
+ls
+vim config.nix
+cat ../../mach/config.nix >> config.nix
+vim config.nix
+cd ..
+vim mach/config.nix
+vim mach/home.nix
+vim mach/sys.nix
+cd mach
+ls
+cat *.nix
+bat
+bat *.nix
+clear
+ls
+cat *.nix | grep hypr
+cd ..
+cd common
+ls
+cat *.nix | grep hypr
+vim default.nix
+vim home.nix
+vim sys.nix
+cd
+cd .setup/modules
+ls
+vim hyprland
+clear
+ls
+cd hyprland
+ls
+mv config.nix hypr.nix
+cd ..
+cd shell
+ls
+vim alias.nix
+vim default.nix
+vim config.nix
+vim alias.nix
+cat config.nix >> alias.nix
+vim alias.nix
+vim config.nix
+vim alias.nix
+cd /mnt
+ls
+cd BACKARCH
+ls
+cd .config/shell
+ls
+cat alias
+rebuild mach 
+cat alias
+vim alias.nix
+rebuild mach 
+vim alias.nix
+rebuild mach 
+cd ..
+cd hyprland
+ls
+vim hypr
+vim hypr.nix
+rebuild mach 
+vim hypr.nix
+rebuild mach 
+vim hypr.nix
+rebuild mach 
+vim hypr.nix
+rebuild mach 
+clear
+ls
+vim hypr
+vim ../../mach/sys.nix
+clear
+rebuild mach 
+vim hypr.nix
+rebuild mach 
+shell
+loginctl lock-session
+clear
+ls
+vim hypr.nix
+cd ..
+vim ../mach/usr-pkgs.nix
+rebuild mach 
+loginctl lock-session
+clear
+pgrep -x swayidle
+clear
+cd .setup
+l
+cd ~/.config
+ls
+cd h
+cd .co
+ls
+cd hypr/
+ls
+cd
+clear
+ls
+clear
+cd .setup/modules
+ls
+cd hyprland
+ls
+vim hypr.nix
+rebuild mach 
+shell
+loginctl lock-session
+pgrep -x swayidle
+clear
+cd .setup/modules
+ls
+cd hyprland
+ls
+vim hypr.nix
+vim ../../mach/config.nix
+vim ../../mach/sys.nix
+vim hypr.nix
+rebuild mach 
+vim hypr.nix
+cd
+cd .setup
+ls
+cd modules
+ls
+vim hyprland/hypr
+cd hyprland
+ls
+vim hypr.nix
+vim ../../mach/sys.nix
+rebuild mach 
+vim ../../mach/sys.nix
+cd ~/.setup
+vim mach/sys.nix
+clear
+rebuild mach 
+clear
+exit
+Hyprland
+cd .config/shell
+ls
+vim func
+shell
+clear
+pgrep -x swayidle
+clear
+cd
+clear
+loginctl lock-session
+firefox
+cd .setup
+ls
+cd modules
+ls
+vim hyprland/hypr.nix
+hyprctl dispatch dpms off
+vim hyprland/hypr.nix
+rebuild mach 
+cd
+clear
+ls
+cd .config/shell
+ls
+vim func
+shell
+rebuild mach 
+shell
+vim func
+shell
+rebuild mach 
+vim func
+shell
+rebuild mach 
+vim func
+shell 
+rebuild mach 
+shell
+clear
+loginctl lock-session
+cd
+cd .setup/modules
+cd hyprland
+ls
+vim hypr.nix
+vim ../../mach/sys.nix
+rebuild mach 
+vim ../../mach/sys.nix
+clear
+vim hypr.nix
+rebuild mach 
+vim hypr.nix
+loginctl lock-session
+cd
+cd binaries/utils
+./lock
+reboot
+Hyprland
+btop
+clear
+cd .setup
+ls
+vim mach/sys.nix
+rebuild mach 
+shell
+btop
+clear
+swayidle
+frirefox
+firefox
+ls
+clear
+cd
+cd .se
+ls
+cd modules
+ls
+cd hyprland
+ls
+vim hypr.nix
+rebuild mach 
+pgrep -x swayidle
+shell
+swayidle -w 
+swayidle -w timeout 3 "swaylock -fF"
+clear
+ls
+vim hypr
+vim hypr.nix
+rebuild mach 
+systemctl --user status swayidle
+cd 
+cd .config/systemd/user
+cat swayidle.service
+/home/niksingh710/binaries/utils/lock
+pcat swayidle.service
+nix/store/q11j05nqg829dkvgc8851mscbzi2iq8n-systemd-251.7/bin/systemctl suspend
+/nix/store/q11j05nqg829dkvgc8851mscbzi2iq8n-systemd-251.7/bin/systemctl suspend
+cd
+clear
+ls
+vim .setup
+rebuild mach 
+btop
+loginctl lock-session
+pgrep -x swayidle
+cd .config/systemd/user
+ls
+cat swayidle.service lst hyprland-session.target.wants
+clear
+lst hyprland-session.target.wants
+cat swayidle.service
+exit
+Hyprland
+loginctl lock-session
+systemctl --user status swayidle
+systemctl --user status udiskie.service
+systemctl --user start udiskie.service
+systemctl --user start swayidle.service
+pgrep -x swayidle
+killall swayidle
+firefox
+reboot
+Hyprland
+pgrep -x swayidle
+firefox
+discord
+cd .setup
+ls
+cd mach
+ls
+c ..
+cd ..
+cd modules
+ls
+clear
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+ls
+cd .se
+lsl
+l
+vim mach/config.nix
+rebuild mach 
+udiskie
+systemctl --user start udiskie.service
+clear
+ls
+reboot
+Hyprland
+firefox
+cd .setup
+ls
+cd modules/
+ls
+cd hyprland
+ls
+vim hypr
+vim hypr.nix
+rebuild mach 
+vim hypr.nix
+rebuild mach 
+vim hypr.nix
+cat hypr.nix | ~/binaries/bin/opaste
+discord
+clear
+ls
+vim hypr.nix
+vim ../../mach/home.nix
+rebuild mach 
+vim hypr.nix
+vim ../../mach/home.nix
+rebuild mach 
+vim ../../mach/home.nix
+rebuild mach 
+pgrep -x swayidle
+vim hypr.nix
+vcd
+cd
+cd .setup
+ls
+vim mach/home.nix
+vim devices.nix
+rebuild mach 
+clear
+ls
+vim devices.nix
+rebuild mach 
+vim devices.nix
+rebuild mach 
+cd modules
+ls
+clear
+ls
+cd hyprland
+ls
+vim hypr
+vim hypr.
+vim hypr.nix
+rebuild mach 
+vim hypr.nix
+vim ../../mach/sys.nix
+rebuild mach 
+vim ../../mach/sys.nix
+rebuild mach 
+vim ../../mach/sys.nix
+rebuild mach 
+vim ../../mach/sys.nix
+vim ../../mach/config.nix
+rebuild mach 
+vim hypr.nix
+vim ../../mach/config.nix
+rebuild mach 
+echo $XDG_SESSION_TYPE
+exit
+cd 
+cd .config/systemd
+ls
+cd user
+ls
+cd
+clear
+nix-shell -p nix-info --run "nix-info -m"
+vim .setup/mach/usr-pkgs.nix
+vim .setup/common/sys.nix
+rebuild mach 
+vim .setup/modules/hyprland/hypr.nix
+rebuild mach 
+cd
+cd .config/systemd
+ls
+cd user
+ls
+cat swayidle.service
+cd
+cd .setup
+lvim modules/hyprland/hypr
+lvim modules/hyprland/hypr.nix
+rebuild mach 
+systemctl --user start udiskie.service
+systemctl --user start swayidle.service
+clear
+loginctl lock-session
+cd modules/hyprland
+vim hypr.nix
+rebuild mach 
+systemctl --user enable swayidle.service
+systemctl --user enable udiskie.service
+reboot
+clear
+Hyprland
+systemctl --user status udiskie.service
+systemctl --user start udiskie.service
+systemctl --user start swayidle.service
+cd /mnt
+ls
+cd
+cd /run/media/niksingh710
+ls
+cd C668BD0F68BCFF6D
+ls
+clear
+ls
+sudo mount /dev/sda1 /mnt
+sudo cp -r MotoGP.15-CP\ \[www.PcGamesPunch.com\] /mnt/Games/lutris
+firefox
+cd
+clear
+ls
+cd
+lutris
+sudo mount /dev/sda1 /mnt
+cd /mnt
+ls
+cd /mnt/Games/lutris
+ls
+cd MotoGP
+cd ..
+cd MotoGP.15-CP\ \[www.PcGamesPunch.com\]
+pwd
+ls
+cd MotoGP.15-CP
+ls
+clear
+ls
+cd ..
+clear
+ls
+cd
+clear
+ls
+cd .setup
+ls
+vim flake.nix
+vim modules/hyprland/hypr.nix
+rebuild mach 
+vim mach/home.nix
+vim mach/config.nix
+rebuild mach 
+notify-send hi
+clear
+systemctl --user status dunst
+clear
+ls
+vim mach/config.nix
+clear
+sl
+clearr
+clear
+c
+clear
+ls
+nix flake update
+vim flake.nix
+rebuild mach 
+systemctl --user status dunst
+systemctl --user status udiskie
+reboot
+Hyprland
+ls
+clearr
+clear
+ls
+systemctl --user status udiskie
+systemctl --user status dunst.service
+firefox
+cd .config/hypr
+ls
+vim execonce.conf
+vim execonce.conf | head -n 1
+clear
+ls
+cat execonce.conf
+cat execonce.conf | head -n 1
+echo $
+earcho $
+echo ear
+clelar
+clear
+echo $WAYLAND_DISPLAY
+dbus-run-session hyprland
+dbus-run-session wayland
+cd .config/hypr
+cat execonce.conf | head -n 1
+echo $XDG_CURRENT_DESKTOP
+dbus-run-session Hyprland
+clear
+dbus-run-session Hyprland
+ls
+firefox
+clear
+ls
+cd .setup
+ls
+vim mach/sys.nix
+vim mach/config.nix
+vim mach/default.nix
+vim devices.nix
+clera
+vim common/users.nix
+discord
+clear
+discord
+rebuild mach 
+discord
+nix flake update
+rebuild mach 
+discord
+clar
+clear
+reboot
+Hyprland
+discord
+cd .setup
+vim mach/usr-pkgs.nix
+rebuild mach 
+shell
+discor
+discord
+vim mach/usr-pkgs.nix
+rebuild mach 
+discord
+python
+clear
+ls
+vim flake.nix
+rebuild mach 
+shell
+discord
+clear
+dis 
+discord
+python
+vim flake.nix
+rebuild mach 
+firefox
+Discord
+cd .config/discord
+ls
+cat settings.json
+vim settings.json
+discord
+vim settings.json
+ls
+cat settings.json
+cleare
+clear
+discord
+clear
+vim test
+clear
+ls
+discord
+rm te
+clear
+ls
+rm test
+clear
+firefox
+discord
+discord | ~/binaries/bin/opaste
+discord
+discord > ~/temp
+cd
+cat temp
+ls
+discord > ~/temp.txt
+vim temp.txt
+clear
+cat temp
+cat temp.txt
+cat temp.txt | ~/binaries/bin/opaste
+rm .config/discord/settings.json
+discord
+clear
+cd
+clear
+ls
+nix-info
+nix-info -m
+uname -r
+clear
+ls
+pgrep -x udiskie
+udiskie
+cd
+cd .config/systemd/user
+ls
+cat udiskie.service
+cd
+vim .setup/mach/config.nix
+lvim .setup/mach/config.nix
+rebuild mach 
+lvim .setup/mach/config.nix
+rebuild mach 
+ls
+vim .setup/mach/config.nix
+lvim .setup/mach/config.nix
+rebuild mach 
+lvim .setup/mach/config.nix
+cd .config/udiskie
+ls
+cat c
+cat config.yml
+systemctl --user enable udiskie.service
+systemctl --user status udiskie.service
+systemctl --user start udiskie.service
+vim config.yml
+cd
+cd .setup
+ls
+lvim mach/config.nix
+rebuild mach 
+systemctl --user start udiskie.service
+systemctl --user status udiskie.service
+reboot
+Hyprland
+neofetch
+firefox
+pgrep -x udiskie
+celar
+clear
+cd .setup
+ls
+vim mach/config.nix
+firefox
+btop
+lvim mach/config.nix
+cd
+cd .setup
+ls
+vim modules/hyprland/hypr.nix
+lvim modules/hyprland/hypr.nix
+rebuild mach 
+lvim mach/config.nix
+rebuild mach 
+firefox
+pavu
+pavucontrol
+cd
+cd .config/hypr
+ls
+vim execonce.conf
+clear
+cd
+clear
+lvim .setup/mach/usr-pkgs.nix
+rebuild mach 
+exit
+Hyprland
+neofetch
+pfetch
+clea
+c
+clear
+ls
+cd .config
+ls
+cd user-dirs.
+cat user-dirs.dirs
+cat user-dirs.conf
+clear
+ls
+pgrep -x udiskie
+pgrep -x swayidle
+cd
+clear
+ls
+cd .config/hypr
+ls
+vim execonce.conf
+clear
+ls
+cd
+cd binaries
+ls
+cd utils
+ls
+cat idle
+vim idle
+pgrep swaylock
+clear
+cd ..
+ls
+cd
+cd .setup
+ls
+vim mach/usr-pkgs.nix
+rebuild mach 
+exit
+Hyprland
+cd .config/hypr
+ls
+vim execonce.conf
+cd
+cd binaries/utils
+ls
+vim idle
+vim ../wal/init
+vim idle
+pgrep -x udiskie
+udiskie
+firefox
+cd .config
+ls
+sudo mount /dev/sda1 /mnt
+cp -r /mnt/BACKARCH/.config/udiskie ./
+cd
+cd .setup
+lvim .setup/mach/usr-pkgs.nix
+lvim mach/usr-pkgs.nix
+rebuild mach 
+shell
+exit
+Hyprland
+ls
+dc binaries
+cd
+cd binaries
+ls
+clear
+cd
+clear
+lst
+lst binaries
+cd binaries
+lst
+cd
+cd .config/shell
+ls
+vim path
+cat ~/binaries/bin/launch-session
+cat ~/binaries/bin/setwal
+cd
+cd Pic
+cd
+cd Pictures
+ls
+setwal Wallpapers/Gruvy_Space.jpg
+cd
+cd binaries/bin
+ls
+vim setwal
+setwal Wallpapers/Gruvy_Space.jpg
+vim se 
+vim ../wal/set-wal
+file
+firefo
+x
+firefox
+xdg-open 
+cd
+clear
+ls
+lvim ~/.setup/mach/usr-pkgs.nix
+rebuild mach 
+cd Pictures/Wallpapers
+ls
+setwal Gruvy_Space.jpg
+feh Gruvy_Space.jpg
+cd
+cd binaries/bin
+ls
+./rofi-bluetooth
+./lock
+./calc
+vim calc
+./dmount
+vim dmount
+firefox
+cd binaries/bin
+ls
+cat dmount
+cd
+cd .setup
+ls
+lvim mach/sys.nix
+cd binaries/bin
+ls
+cat dmount
+lvim mach/usr-pkgs.nix
+rebuild mach 
+lvim mach/usr-pkgs.nix
+rebuild mach 
+rofi
+clear
+ls
+cliphist --list
+cliphist list
+clear
+cd /mnt
+ls
+cd BACKARCH/.config
+ls
+cp -r rofi ~/
+cd
+ls
+clear
+ls
+mv rofi .setup/modules
+cd .setup/modules
+ls
+mkdir menu
+mv rofi menu
+cd root-modules
+ls
+ca intel.nix
+cat intel.nix
+clear
+ls
+cd ..
+clear
+ls
+cp hyprland/hypr.nix menu/rofi.nix
+cd menu
+ls
+vim rofi
+vim rofi.nix
+vim default.nix
+cd rofi
+ls
+cat wpg.rasi
+cd
+cd .config/wpg/templates
+ls
+cat wpg.rasi.base
+cd
+cd setup
+ls
+cd modules
+ls
+cd me
+ls
+vim rofi
+vim rofi.nix
+cd .setup/modules
+ls
+cd ui/wpg
+ls
+rebuild mach 
+cd ..
+vim mach/home.nix
+shell
+simple-mtpfs
+jmtpfs --help
+jmtpfs --k
+jmtpfs --l
+clear
+ls
+rebuild mach 
+cd modules
+ls
+cd ..
+vim mach/home.nix
+rebuild mach 
+cd modules/menu
+vim rofi.nix
+rebuild mach 
+cd ..
+cd ui
+ls
+vim wpg.nix
+cd ..
+cd menu
+vim rofi
+vim rofi.nix
+cd rofi
+rm wpg.rasi
+rebuild mach 
+vim rofi.nix
+cd ..
+vim rofi.nix
+cd ..
+ls
+vim wpg.nix
+cd ..
+clear
+ls
+vim menu
+rebuild mach 
+rofi 
+rofi -show run
+cd
+cd binaries/utils
+ls
+cd ..
+ls
+lst | grep clip
+lst
+lt
+cd menu
+ls
+./clipboard
+vim clipboard
+echo $DASH_SOURCE
+vim clipboard
+vim menu
+vim conf
+./clipboard
+clear
+ls
+vim clipboard
+./clipboard
+vim clipboard
+./clipboard
+vim clipboard
+./clipboard
+vim clipboard
+pgrep -x rofi
+vim clipboard
+./menu
+vim menu
+rofi -dmenu `ls`
+rofi -dmenu "`ls`"
+ls
+ls | rofi -dmenu
+vim menu
+vim clipboard
+cliphist list
+cliphist list | ./menu
+vim menu
+cliphist list | ./menu
+vim menu
+cliphist list | ./menu
+vim menu
+cliphist list | ./menu
+./clipboard
+vim clipboard
+./clipboard
+clear
+cd
+cd .config/hypr
+ls
+vim keymaps.conf
+ls
+cd men
+ls
+cd ~/binaries/menu
+ls
+vim menu-run
+./menu-run
+vim menu-run
+./menu-run
+clear
+vim menu-run
+rofi -dmenu "`ls`"
+ls | rofi -dmenu
+ls | rofi -dmenu -p "test"
+vim menu-run
+./
+./menu-run
+vim menu-run
+clear
+cd
+cd .config/rofi
+ls
+rm -rf cuts
+clear
+ls
+cd
+rofi-theme-selector
+rofi -show run -theme dmenu
+rofi -show run -theme dmenu -p "[]=: "
+rofi --help
+rofi -show run -p "" -theme dmenu 
+clear
+ls
+cd .config/rofi
+cd 
+cd binaries/menu
+vim menu-run
+./menu-run
+vim menu-run
+./menu-run
+cd
+cd .config/rofi
+ls
+clear
+s
+clear
+ls
+cp config.rasi nik-dmenu.rasi
+vim nik-dmenu.rasi
+ls
+vim nikhil.rasi
+mkdir themes
+mv nikhil.rasi themes
+clear
+ls
+mv nik-dmenu.rasi dmenu-conf.rasi
+clear
+ls
+vim dmenu-conf.rasi
+cd themes
+ls
+vim nikhil.rasi
+cd ..
+clera
+cd themes
+curl https://raw.githubusercontent.com/davatorium/rofi-themes/master/Official%20Themes/dmenu.rasi
+curl https://raw.githubusercontent.com/davatorium/rofi-themes/master/Official%20Themes/dmenu.rasi > nikhil-dmenu.rasi
+ls
+vim nikhil-dmenu.rasi
+vim nikhil
+vim nikhil.rasi
+vim nikhil-dmenu.rasi
+vim ../wpg.rasi
+cd
+cd .config/wpg
+ls
+cd templates
+ls
+cat wpg.rasi
+vim nikhil-dmenu.rasi
+cd
+cd .setup
+ls
+vim modules/menu/rofi.nix
+rebuild mach 
+clear
+cd
+cd .config
+ls
+cd wpg
+ls
+cd templates
+ls
+cd
+cd .config/rofi
+ls
+cd themes
+ls
+cd
+cd binaries/menu
+ls
+clear
+ls
+vim menu-run
+rofi --help
+rofi --help | fzf
+clear
+rofi --help | fzf
+cd
+cd .config/rofi
+ls
+vim dmenu-conf.rasi
+vim config.rasi
+vim themes/nikhil-dmenu.rasi
+cd
+clear
+ls
+cd .config/wpg
+ls
+cd templates
+vim wpg.rasi
+vim wpg.rasi.base
+cd
+cd .config/rofi
+ls
+vim dmenu-conf.rasi
+cd themes
+ls
+vim nikhil-dmenu.rasi
+cd .config/wpg
+cd templates
+ls
+cat wpg.rasi
+vim nikhil-dmenu.rasi
+vim nikhil.rasi
+vim nikhil-dmenu.rasi
+cd
+cd binaries/menu
+vim menu-run
+cd 
+rofi-theme-selector
+clear
+ls
+cd
+clear
+man rofi
+man rofi-theme
+cd
+cd .config/rofi
+ls
+cd themes
+vim ../dmenu-conf.rasi
+vim dmenu-conf.rasi
+clear
+ls
+vim nikhil-dmenu.rasi
+vim nikhil
+vim nikhil.rasi
+vim nikhil-dmenu.rasi
+vim nikhil.rasi
+vim nikhil-dmenu.rasi
+vim wpg.rasi.base
+Hyprland
+ls
+cd .config/rofi
+ls
+cd themes
+ls
+vim nikhil-dmenu.rasi
+pgrep -x rofi
+pgrep -x udiskie
+cd
+cd .config/hypr
+ls
+vim execonce.conf
+pgrep -x cliphist
+vim execonce.conf
+udiskie
+clear
+vim execonce.conf
+pgrep -x swayidle
+cd
+hash swayidle
+cd binaries/bin
+l
+cd ..
+cd utils
+ls
+./idle
+vim idle
+pgrep -x swaylock
+vim idle
+clear
+./idle
+exit
+Hyprland
+pgrep -x swayidle
+clear
+ls
+btop
+hash swayidle
+cd binaries/bin
+ls
+cd
+hyprctl reload
+cd .config/hypr
+ls
+vim execonce.conf
+exit
+Hyprland
+ls
+cat log
+cd .config/hypr
+ls
+vim execonce.conf
+cd
+cd binaries/utils
+ls
+vim idle
+exit
+Hyprland
+btop
+cd .config/h
+ls
+vim execonce.conf
+cat winrules.conf
+vim execonce.conf
+cd .setup/modules
+ls
+cd ..
+vim flake..
+vim flake.nix
+vim devices.nix
+vim mach/usr-pkgs.nix
+vim mach/home.nix
+vim mach/usr-pkgs.nix
+rebuild mach 
+vim flake.nix
+rebuild mach 
+vim flake.nix
+rebuild mach 
+vim flake.nix
+rebuild mach 
+vim flake.nix
+vim devices.nix
+vim flake.nix
+vim mach/home.nix
+vim mach/usr-pkgs.nix
+rebuild mach 
+clear
+cd
+clear
+cd .setup/modules/ui
+ls
+gc https://github.com/guillaumeboehm/wal-telegram.git
+git clone https://github.com/guillaumeboehm/wal-telegram.git
+cd w
+cd ui
+cd wal
+cd ui
+cd wal-telegram
+ls
+rm -rf .git
+clear
+ls
+cd
+clear
+cd .setup
+ls
+vim flake.
+vim flake.nix
+vim devices.nix
+vim mach/usr-pkgs.nix
+rebuild mach 
+vim mach/usr-pkgs.nix
+vim flake.
+vim flake.nix
+rebuild mach 
+vim flake.nix
+vim mach/usr-pkgs.nix
+rebuild mach 
+vim mach/home.nix
+rebuild mach 
+vim mach/usr-pkgs.nix
+vim devices.nix
+vim flake.nix
+rebuild mach 
+vim flake.nix
+rebuild mach 
+vim mach/usr-pkgs.nix
+rebuild mach 
+clear
+vim flake.nix
+pcat flake.nix
+vim flake.nix
+rebuild mach 
+ls
+vim mach/usr-pkgs.nix
+vim mach/home.nix
+vim devices.nix
+rebuild mach 
+vim mach/home.nix
+vim mach/usr-pkgs.nix
+vim devices.nix
+vim flake.nix
+rebuild mach 
+vim flake.nix
+rebuild mach 
+vim flake.nix
+rebuild mach 
+clear
+vim devices.nix
+rebuild mach 
+vim mach/usr-pkgs.nix
+rebuild mach 
+hash advcp
+cat flake.lock
+vim flake.nix
+rebuild mach 
+vim flake.nix
+clear
+sudo mount /dev/sda1 /mnt
+cat /mnt/BACKARCH/.config/shell/alias
+cp /mnt/BACKARCH/.config/shell/alias ~/temp/
+lvim ~/temp/alias
+lvim ~/.config/shell/alias
+lvim ~/.config/shell/commonrc
+mkdir pacakages
+cd pacakages
+ls
+mkdir advcp
+cd advcp
+curl https://raw.githubusercontent.com/NobbZ/nixos-config/main/packages/advcp/default.nix > default.nix
+clear
+cat default.nix
+cd ..
+vim default.nix
+vim ../flake.nix
+vim ../devices.nix
+vim default.nix
+cd ..
+vim mach/usr-pkgs.nix
+cd pacakages
+ls
+cd ..
+vim flake.nix
+vim devices.nix
+vim mach/usr-pkgs.nix
+vim mach/home.nix
+exa --header --git --classify --long --binary --group --time-style=long-iso --links --all --all --group-directories-first --sort=name
+clear
+ls
+cd .setup
+vim flake.nix
+vim mach/default.nix
+vim devices.nix
+vim mach/home.nix
+vim mach/config.nix
+vim mach/usr-pkgs.nix
+clear
+ls
+rebuild mach 
+vim mach/usr-pkgs.nix
+rebuild mach 
+clear
+cd
+Hyprland
+pfetch
+neofetch
+pfetch
+neofetch
+btop
+free -m
+free -mh
+clear
+ls
+cat temp.txt
+clear
+cd
+cd .setup
+ls
+cd
+cd .config/shell
+ls
+vim alias
+clear
+shell
+: 1669392974:0;cd
+: 1669392977:0;mkdir nitin
+: 1669392978:0;cd nitin
+: 1669393040:0;cp ~/Downloads/OpenCore-0.8.6-RELEASE.zip ./
+: 1669393041:0;ls
+: 1669393045:0;unzip OpenCore-0.8.6-RELEASE.zip
+: 1669393046:0;clear
+: 1669393046:0;ls
+: 1669393052:0;mkdir OpenCore
+: 1669393055:0;mv * OpenCore
+: 1669393056:0;clear
+: 1669393057:0;ls
+: 1669393058:0;cd OpenCore
+: 1669393059:0;ls
+: 1669393121:0;ls 0a
+: 1669393122:0;l
+: 1669393127:0;mv OpenCore-0.8.6-RELEASE.zip ../
+: 1669393128:0;ls
+: 1669393130:0;ls ..
+: 1669393131:0;clear
+: 1669393144:0;cd Utilities/macrecovery
+: 1669393145:0;ls
+: 1669393175:0;python3 ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+: 1669393381:0;lsblk
+: 1669393403:0;sudo fdisk /dev/sdb
+: 1669393573:0;lsblk
+: 1669393594:0;sudo mkfs.vfat -F 32 -n "OPENVORE" /dev/sdb1
+: 1669393598:0;sudo mkfs.vfat -F 32 -n "OPENCORE" /dev/sdb1
+: 1669393609:0;ls
+: 1669393645:0;udisksctl mount -b /dev/sdb1
+: 1669393659:0;cd /run/media/niksingh710/OPENCORE
+: 1669393660:0;ls
+: 1669393674:0;mkdir com.apple.recovery.boot
+: 1669393707:0;cp ~/nitin/OpenCore/Utilities/macrecovery/BaseSystem.* ./
+: 1669393816:0;clera
+: 1669393818:0;cd
+: 1669393818:0;clear
+: 1669393824:0;cd /run/media/niksingh710/OPENCORE
+: 1669393826:0;cd
+: 1669393830:0;sudo fdisk /dev/sdb
+: 1669393873:0;udisksctl mount -b /dev/sdb1
+: 1669393878:0;lsblk
+: 1669393883:0;sudo mkfs.vfat -F 32 -n "OPENCORE" /dev/sdb1
+: 1669393886:0;udisksctl mount -b /dev/sdb1
+: 1669393888:0;cd /run/media/niksingh710/OPENCORE
+: 1669393893:0;mkdir com.apple.recovery.boot
+: 1669393895:0;cp ~/nitin/OpenCore/Utilities/macrecovery/BaseSystem.* ./
+: 1669393987:0;cd ~/nitin/OpenCore
+: 1669393988:0;ls
+: 1669393992:0;ls X64
+: 1669393998:0;ls IA32
+: 1669394000:0;cd X64
+: 1669394081:0;clear
+: 1669394082:0;lst
+: 1669394084:0;lt
+: 1669394089:0;clera
+: 1669394090:0;clear
+: 1669394091:0;lt
+: 1669394327:0;cp ~/Downloads/HfsPlus.efi ./EFI/OC/Drivers/
+: 1669394389:0;cd Downloads
+: 1669394390:0;ls
+: 1669394395:0;unzip Lilu-1.6.2-RELEASE.zip
+: 1669394415:0;mv Lilu.kext ~/nitin/OpenCore/X64/EFI/OC/Kexts
+: 1669394431:0;unzip VirtualSMC-1.3.0-RELEASE.zip
+: 1669394438:0;ls
+: 1669394444:0;mkdir vir
+: 1669394448:0;mv VirtualSMC-1.3.0-RELEASE.zip vir
+: 1669394450:0;cd vir
+: 1669394453:0;unzip VirtualSMC-1.3.0-RELEASE.zip
+: 1669394455:0;clear
+: 1669394465:0;ls
+: 1669394468:0;cd k
+: 1669394470:0;cd vi
+: 1669394470:0;ls
+: 1669394472:0;cd Kexts
+: 1669394472:0;ls
+: 1669394495:0;mv * ~/nitin/OpenCore/X64/EFI/OC/Kexts
+: 1669394522:0;ls
+: 1669394526:0;cd EFI/OC/Kexts
+: 1669394527:0;ls
+: 1669394553:0;rm -rf SMCLightSensor.kext
+: 1669394556:0;rm -rf SMCDellSensors.kext
+: 1669394569:0;cd
+: 1669394570:0;cd Downloads
+: 1669394575:0;unzip WhateverGreen-1.6.1-RELEASE.zip
+: 1669394608:0;mv WhateverGreen.kext ~/nitin/OpenCore/X64/EFI/OC/Kexts/
+: 1669394641:0;unzip AppleALC-1.7.6-RELEASE.zip
+: 1669394669:0;mv AppleALC*.kext ~/nitin/OpenCore/X64/EFI/OC/Kexts
+: 1669394751:0;ls
+: 1669394763:0;mkdir ether
+: 1669394765:0;mv IntelMausi-1.0.7-RELEASE.zip ether
+: 1669394774:0;mv AtherosE2200Ethernet-V2.2.2.zip ether
+: 1669394777:0;mv RealtekRTL8111-V2.4.2.zip ether
+: 1669394788:0;mv SmallTreeIntel82576.kext.zip ether
+: 1669394790:0;cd ether
+: 1669394793:0;unzip *.zip
+: 1669394795:0;ls
+: 1669394801:0;unzip AtherosE2200Ethernet-V2.2.2.zip
+: 1669394810:0;unzip IntelMausi-1.0.7-RELEASE.zip
+: 1669394815:0;unzip SmallTreeIntel82576.kext.zip
+: 1669394823:0;unzip RealtekRTL8111-V2.4.2.zip
+: 1669394824:0;clear
+: 1669394824:0;ls
+: 1669394855:0;mv *.kext ~/nitin/OpenCore/X64/EFI/OC/Kexts
+: 1669394857:0;clear
+: 1669394857:0;ls
+: 1669394869:0;cd __MACOSX
+: 1669394870:0;ls
+: 1669394875:0;mv *.kext ~/nitin/OpenCore/X64/EFI/OC/Kexts
+: 1669394884:0;mv *.kext ~/nitin/OpenCore/X64/EFI/OC/Kexts/
+: 1669394898:0;ls RealtekRTL8111-V2.4.2
+: 1669394901:0;clear
+: 1669394903:0;cd ..
+: 1669394904:0;l
+: 1669394908:0;cd RealtekRTL8111-V2.4.2
+: 1669394908:0;ls
+: 1669394914:0;cat Read\ me.txt
+: 1669394921:0;cd ..
+: 1669394923:0;lt
+: 1669394953:0;cd __MACOSX
+: 1669394954:0;ls
+: 1669394955:0;cd RealtekRTL8111-V2.4.2
+: 1669394956:0;ls
+: 1669394957:0;cd Release
+: 1669394958:0;ls
+: 1669394960:0;l
+: 1669394976:0;mv ._RealtekRTL8111.kext ~/nitin/OpenCore/X64/EFI/OC/Kexts
+: 1669394978:0;cd ..
+: 1669394984:0;cd AtherosE2200Ethernet-V2.2.2
+: 1669394984:0;ls
+: 1669394987:0;cd Release
+: 1669394988:0;ls
+: 1669394989:0;l
+: 1669395316:0;cd
+: 1669395319:0;cd ..
+: 1669395319:0;ls
+: 1669395351:0;cd ..
+: 1669395360:0;udisksctl mount -b /dev/sdb1
+: 1669395374:0;cp X64 /run/media/niksingh710/OPENCORE
+: 1669395425:0;cp Docs/Sample.plist /run/media/niksingh710/OPENCORE/X64/EFI/OC
+: 1669395429:0;cd /run/media/niksingh710/OPENCORE
+: 1669395438:0;cd X64/EFI/OC
+: 1669395438:0;ls
+: 1669395449:0;mv Sample.plist config.plist
+: 1669395450:0;vim config.plist
+: 1669395493:0;cd temp
+: 1669395496:0;git clone https://github.com/corpnewt/ProperTree.git
+: 1669395500:0;cd ProperTree
+: 1669395501:0;ls
+: 1669395505:0;python ProperTree.py
+: 1669395538:0;virtualenv env
+: 1669395542:0;ls
+: 1669395551:0;./env/bin/activate
+: 1669395555:0;clear
+: 1669395555:0;ls
+: 1669395571:0;./env/bin/activate
+: 1669395576:0;sudo ./env/bin/activate
+: 1669395577:0;clear
+: 1669395579:0;cd env/bin
+: 1669395580:0;ls
+: 1669395582:0;./activate
+: 1669395586:0;cd ../..
+: 1669395586:0;ls
+: 1669395600:0;./env/bin/activate
+: 1669395622:0;source ./env/bin/activate
+: 1669395637:0;pip install tkinter
+: 1669395658:0;pip install --upgrade pip
+: 1669395671:0;pip install tk
+: 1669395677:0;python ProperTree.py
+: 1669395683:0;python
+: 1669395699:0;clear
+: 1669395699:0;ls
+: 1669395703:0;vim ProperTree.py
+: 1669395715:0;python
+: 1669395725:0;clear
+: 1669395727:0;vim ProperTree.py
+: 1669395775:0;pip install tkinter
+: 1669395781:0;pip install Tkinter
+: 1669395876:0;deactivate
+: 1669395877:0;cd
+: 1669395878:0;clear
+: 1669395896:0;nix-env -iA python310Packages.tkinter
+: 1669395902:0;nix-env -iA nixos.python310Packages.tkinter
+: 1669395941:0;cd Downloads/
+: 1669395941:0;ls
+: 1669395961:0;cd ..
+: 1669395961:0;ls
+: 1669395970:0;cd Downloads
+: 1669395974:0;git clone https://github.com/corpnewt/ProperTree.git
+: 1669395980:0;cd ProperTree
+: 1669395980:0;ls
+: 1669395985:0;python ProperTree.py
+: 1669395998:0;python
+: 1669396148:0;tk
+: 1669396151:0;python-tk
+: 1669396170:0;cd Downloads
+: 1669396171:0;python
+: 1669396339:0;vim ~/.setup/modules/python/python.nix
+: 1669396347:0;rebuild mach 
+: 1669396392:0;vim ~/.setup/modules/python/python.nix
+: 1669396398:0;rebuild mach 
+: 1669434568:0;clear
+: 1669434569:0;nmtui
+: 1669437612:0;cd 
+: 1669437613:0;cd Downloads
+: 1669437613:0;ls
+: 1669437713:0;clear
+: 1669437714:0;nautilus
+: 1669447093:0;env -u NIX_GSETTINGS_OVERRIDES_DIR firefox
+: 1669530639:0;clear
+: 1669530641:0;cd
+: 1669530645:0;sudo mou 
+: 1669530650:0;sudo mount /dev/sda1 /mnt
+: 1669530653:0;cd /mnt
+: 1669530655:0;ls
+: 1669640789:0;nmtui
+: 1669640804:0;ifconfig
+: 1669640853:0;nmtui
+: 1669641112:0;ifconfig
+: 1669641133:0;nmtui
+: 1669641666:0;cd .setup
+: 1669641666:0;ls
+: 1669641667:0;clear
+: 1669641668:0;lsl
+: 1669641670:0;clear
+: 1669641670:0;ls
+: 1669641671:0;clear
+: 1669641678:0;ls
+: 1669641688:0;cd mach
+: 1669641689:0;ls
+: 1669641690:0;clear
+: 1669641691:0;ls
+: 1669641700:0;ls\\
+;
+: 1669641702:0;clera
+: 1669641703:0;ls
+: 1669641704:0;clear
+: 1669641707:0;ls
+: 1669641829:0;../
+: 1669641832:0;clear
+: 1669641833:0;ls
+: 1669641840:0;lt
+: 1669641846:0;lt -d 1
+: 1669641851:0;lt -L 2
+: 1669641908:0;cd modules
+: 1669641909:0;clear
+: 1669641909:0;ls
+: 1669641912:0;cd b
+: 1669641913:0;cd
+: 1669641916:0;cd modu
+: 1669641916:0;ls
+: 1669641918:0;cd menu
+: 1669641919:0;ls
+: 1669641920:0;cd ..
+: 1669641921:0;cd ui
+: 1669641922:0;clear
+: 1669641923:0;ls
+: 1669641933:0;vim wpg.nix
+: 1669641954:0;vim default.nix
+: 1669648737:0;pip install tkinter
+: 1669648749:0;pip install requests
+: 1669648759:0;pip install pandas
+: 1669648766:0;pip install matplotlib
+: 1669648778:0;pip install hello
+: 1669648851:0;pip install pyperclip
+: 1669649006:0;clear
+: 1669649006:0;ls
+: 1669649013:0;pip install --user pyperclip
+: 1669649026:0;pip install --upgrade pip
+: 1669649200:0;clear
+: 1669649201:0;cd
+: 1669649288:0;nix shell github:DavHau/mach-nix
+: 1669649308:0;mach-nix 
+: 1669649338:0;nix shell github:DavHau/mach-nix
+: 1669649396:0;pip freeze
+: 1669649409:0;pip list
+: 1669649420:0;vim requirements.txt
+: 1669649436:0;mach-nix env ./env -r requirements.txt
+: 1669649547:0;clear
+: 1669649547:0;ls
+: 1669649555:0;nix-shell ./env/
+: 1669649694:0;nix-shell ./env
+: 1669649699:0;cd env
+: 1669649699:0;ls
+: 1669649701:0;cat default.nix
+: 1669649704:0;cat python.nix
+: 1669649710:0;cat shell.nix
+: 1669649716:0;clear
+: 1669649717:0;ls
+: 1669649720:0;cat inputs.nix
+: 1669649728:0;clear
+: 1669649728:0;ls
+: 1669649731:0;cat requirements.txt
+: 1669649943:0;nix-shell ./env
+: 1669650693:0;mach-nix gen -r requirements.txt
+: 1669651272:0;clear
+: 1669651277:0;cd .setup
+: 1669651277:0;ls
+: 1669651324:0;cd pacakages
+: 1669651324:0;ls
+: 1669651328:0;cd ..
+: 1669651333:0;rm -rf pacakages
+: 1669651334:0;clear
+: 1669723186:0;ls
+: 1669723187:0;clera
+: 1669723189:0;clear
+: 1669723189:0;ls
+: 1669723195:0;cat flake.nix
+: 1669723205:0;clear
+: 1669723205:0;ls
+: 1669723206:0;cd modules
+: 1669723207:0;ls
+: 1669723211:0;ls shell
+: 1669723225:0;ls
+: 1669723227:0;cd shell
+: 1669723228:0;ls
+: 1669723230:0;cat bash.nix
+: 1669723243:0;cat zsh.nix
+: 1669723249:0;ls
+: 1669723252:0;cd ..
+: 1669723252:0;ls
+: 1669723255:0;cd ui
+: 1669723255:0;ls
+: 1669723271:0;cat btop/btop.conf
+: 1669744410:0;cd
+: 1669744412:0;cd .setup
+: 1669744412:0;ls
+: 1669744413:0;clear
+: 1669744413:0;ls
+: 1669744415:0;git init
+: 1669744434:0;clear
+: 1669744436:0;git status
+: 1669744445:0;ls
+: 1669744450:0;cd modules
+: 1669744450:0;ls
+: 1669744454:0;cd bin
+: 1669744455:0;ls
+: 1669744459:0;cd binaries
+: 1669744459:0;ls
+: 1669744460:0;cd ..
+: 1669744461:0;clear
+: 1669744462:0;ls
+: 1669744464:0;cd ..
+: 1669744466:0;cd shell
+: 1669744466:0;ls
+: 1669744470:0;cd shell
+: 1669744470:0;ls
+: 1669744472:0;cd ..
+: 1669744473:0;clear
+: 1669744473:0;ls
+: 1669744474:0;cd ..
+: 1669744475:0;clear
+: 1669744475:0;ls
+: 1669744478:0;cd ..
+: 1669744480:0;git add .
+: 1669744497:0;vim .gitignore
+: 1669744522:0;git add .
+: 1669745872:0;vim Readme.md
+: 1669746811:0;git add .

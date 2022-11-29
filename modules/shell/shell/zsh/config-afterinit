@@ -1,0 +1,5 @@
+# This is zsh default config
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+
+#zvm_after_init_commands+=('bindkey "^R" fzf-history-widget')
+zvm_after_init_commands+=('[ -f "$LOC"/zfunc ] && . "$LOC"/zfunc')

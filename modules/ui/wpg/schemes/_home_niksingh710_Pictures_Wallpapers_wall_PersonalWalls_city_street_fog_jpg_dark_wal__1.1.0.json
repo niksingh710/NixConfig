@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/PersonalWalls/city_street_fog.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#0F171A",
+        "foreground": "#d3dad6",
+        "cursor": "#d3dad6"
+    },
+    "colors": {
+        "color0": "#0F171A",
+        "color1": "#35575F",
+        "color2": "#556362",
+        "color3": "#A46346",
+        "color4": "#878479",
+        "color5": "#748C8A",
+        "color6": "#91A7A2",
+        "color7": "#d3dad6",
+        "color8": "#939895",
+        "color9": "#35575F",
+        "color10": "#556362",
+        "color11": "#A46346",
+        "color12": "#878479",
+        "color13": "#748C8A",
+        "color14": "#91A7A2",
+        "color15": "#d3dad6"
+    }
+}

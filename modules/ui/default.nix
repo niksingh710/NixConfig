@@ -1,0 +1,4 @@
+[
+  ./wpg.nix
+  ./gtk.nix
+]

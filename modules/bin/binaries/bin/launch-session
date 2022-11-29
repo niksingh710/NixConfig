@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# This script launches the session.
+cd ~
+[ -f "$HOME/.config/sys/all-env" ] && . "$HOME/.config/sys/all-env"
+
+launch(){
+	if hash "$1";then
+		Hyprland 
+	else
+		echo "Unable to Find to Launch."
+	fi
+}
+
+launch Hyprland &>/dev/null

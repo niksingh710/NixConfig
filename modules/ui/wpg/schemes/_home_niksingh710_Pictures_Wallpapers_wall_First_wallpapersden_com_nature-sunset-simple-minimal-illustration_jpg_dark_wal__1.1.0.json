@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/wallpapersden.com_nature-sunset-simple-minimal-illustration.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#15000b",
+        "foreground": "#f6c5ac",
+        "cursor": "#f6c5ac"
+    },
+    "colors": {
+        "color0": "#15000b",
+        "color1": "#F12C1C",
+        "color2": "#D51B23",
+        "color3": "#FF451C",
+        "color4": "#FF4D1C",
+        "color5": "#FD5F24",
+        "color6": "#EB6846",
+        "color7": "#f6c5ac",
+        "color8": "#ac8978",
+        "color9": "#F12C1C",
+        "color10": "#D51B23",
+        "color11": "#FF451C",
+        "color12": "#FF4D1C",
+        "color13": "#FD5F24",
+        "color14": "#EB6846",
+        "color15": "#f6c5ac"
+    }
+}

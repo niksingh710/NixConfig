@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/rmradev-colorful-landscape.png",
+    "alpha": "60",
+    "special": {
+        "background": "#0F1F24",
+        "foreground": "#eae4c9",
+        "cursor": "#eae4c9"
+    },
+    "colors": {
+        "color0": "#0F1F24",
+        "color1": "#F09B6B",
+        "color2": "#BC6E81",
+        "color3": "#6CC5A9",
+        "color4": "#DF9C88",
+        "color5": "#A7D6B0",
+        "color6": "#C0DDBD",
+        "color7": "#eae4c9",
+        "color8": "#a39f8c",
+        "color9": "#F09B6B",
+        "color10": "#BC6E81",
+        "color11": "#6CC5A9",
+        "color12": "#DF9C88",
+        "color13": "#A7D6B0",
+        "color14": "#C0DDBD",
+        "color15": "#eae4c9"
+    }
+}

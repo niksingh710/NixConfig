@@ -1,0 +1,10 @@
+check_alias(){
+    if command -v $1 &>/dev/null;then
+        alias $2="$3"
+    fi
+}
+
+# General
+check_alias advcp cp 'advcp -gR'
+check_alias advmv mv 'advmv -g'
+

@@ -1,0 +1,22 @@
+#!/bin/sh
+
+hash swayidle 2>/dev/null || exit 0
+hash swaylock 2>/dev/null || exit 0
+pgrep -x swayidle &>/dev/null && killall -qs SIGKILL swayidle &>/dev/null
+pgrep -x swaylock &>/dev/null && killall -qs SIGKILL swaylock &>/dev/null
+
+LOCK_TIME=${LOCK_TIME:-1}
+SUSPEND_TIME=${SUSPEND_TIME:-150}
+SUSPEND_TIME=$((SUSPEND_TIME + LOCK_TIME))
+
+lock="swaylock -f"
+suspend="systemctl suspend"
+[ -f "$HOME/binaries/bin/lock" ] && lock="$HOME/binaries/bin/lock"
+[ -f "$HOME/binaries/bin/suspend" ] && suspend="$HOME/binaries/bin/suspend"
+
+swayidle -w \
+before-sleep "$lock" \
+lock "$lock" \
+timeout $LOCK_TIME "loginctl lock-session" \
+timeout $SUSPEND_TIME "$suspend" &>/dev/null &
+

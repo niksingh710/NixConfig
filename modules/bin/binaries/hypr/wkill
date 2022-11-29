@@ -1,0 +1,4 @@
+#!/bin/sh
+
+hyprctl --batch "keyword input:follow_mouse 1 ; kill" &>/dev/null
+hyprctl keyword input:follow_mouse 2 &>/dev/null

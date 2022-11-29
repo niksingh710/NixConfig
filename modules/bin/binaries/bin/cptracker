@@ -1,0 +1,3 @@
+#!/bin/bash
+
+hash packettracer && QT_QPA_PLATFORM=xcb packettracer || echo "Not installed"

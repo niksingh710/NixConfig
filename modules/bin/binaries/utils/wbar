@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pgrep -x waybar &>/dev/null && killall -s SIGKILL waybar
+
+waybar &>/dev/null &

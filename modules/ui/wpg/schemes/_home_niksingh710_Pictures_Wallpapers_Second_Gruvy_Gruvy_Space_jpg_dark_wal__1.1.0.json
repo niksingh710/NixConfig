@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/Second/Gruvy/Gruvy_Space.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#07060C",
+        "foreground": "#9cc5cc",
+        "cursor": "#9cc5cc"
+    },
+    "colors": {
+        "color0": "#07060C",
+        "color1": "#543050",
+        "color2": "#275064",
+        "color3": "#575863",
+        "color4": "#B73A4B",
+        "color5": "#B37C7A",
+        "color6": "#354A98",
+        "color7": "#9cc5cc",
+        "color8": "#6d898e",
+        "color9": "#543050",
+        "color10": "#275064",
+        "color11": "#575863",
+        "color12": "#B73A4B",
+        "color13": "#B37C7A",
+        "color14": "#354A98",
+        "color15": "#9cc5cc"
+    }
+}

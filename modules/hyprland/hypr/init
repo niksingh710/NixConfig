@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#hash waybar 2>/dev/null && killall -SIGUSR2 waybar
+#[ -f "$HOME"/binaries/utils/idle ] && "$HOME"/binaries/utils/idle
+#[ -f "$HOME"/binaries/utils/wbar ] && "$HOME"/binaries/utils/wbar
+[ -f "$HOME"/binaries/hypr/ui ] && "$HOME"/binaries/hypr/ui
+#notify-send "Reloaded Hyprland" -t 2000

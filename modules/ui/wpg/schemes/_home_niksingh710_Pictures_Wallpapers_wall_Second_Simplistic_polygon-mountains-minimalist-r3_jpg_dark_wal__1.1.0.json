@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/Second/Simplistic/polygon-mountains-minimalist-r3.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#36376c",
+        "foreground": "#f4cfd9",
+        "cursor": "#f4cfd9"
+    },
+    "colors": {
+        "color0": "#36376c",
+        "color1": "#FEAFBC",
+        "color2": "#8D8DD2",
+        "color3": "#AA94D3",
+        "color4": "#B1A4D0",
+        "color5": "#DC9BCE",
+        "color6": "#FEB6C1",
+        "color7": "#f4cfd9",
+        "color8": "#aa9097",
+        "color9": "#FEAFBC",
+        "color10": "#8D8DD2",
+        "color11": "#AA94D3",
+        "color12": "#B1A4D0",
+        "color13": "#DC9BCE",
+        "color14": "#FEB6C1",
+        "color15": "#f4cfd9"
+    }
+}

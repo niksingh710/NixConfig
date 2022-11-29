@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/blyatusmaximus-mountain-tops.png",
+    "alpha": "60",
+    "special": {
+        "background": "#021530",
+        "foreground": "#d1eae5",
+        "cursor": "#d1eae5"
+    },
+    "colors": {
+        "color0": "#021530",
+        "color1": "#5097B5",
+        "color2": "#64B2C8",
+        "color3": "#7AC4D3",
+        "color4": "#8AB0B9",
+        "color5": "#91D1D9",
+        "color6": "#A5DCDC",
+        "color7": "#d1eae5",
+        "color8": "#92a3a0",
+        "color9": "#5097B5",
+        "color10": "#64B2C8",
+        "color11": "#7AC4D3",
+        "color12": "#8AB0B9",
+        "color13": "#91D1D9",
+        "color14": "#A5DCDC",
+        "color15": "#d1eae5"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/frank-sun-twelve-suns.jpg",
+    "alpha": "83",
+    "special": {
+        "background": "#091617",
+        "foreground": "#e2d3dd",
+        "cursor": "#e2d3dd"
+    },
+    "colors": {
+        "color0": "#091617",
+        "color1": "#6C6F8F",
+        "color2": "#937A96",
+        "color3": "#BC7D9D",
+        "color4": "#94878F",
+        "color5": "#A48AAB",
+        "color6": "#D69CA6",
+        "color7": "#e2d3dd",
+        "color8": "#9e939a",
+        "color9": "#6C6F8F",
+        "color10": "#937A96",
+        "color11": "#BC7D9D",
+        "color12": "#94878F",
+        "color13": "#A48AAB",
+        "color14": "#D69CA6",
+        "color15": "#e2d3dd"
+    }
+}

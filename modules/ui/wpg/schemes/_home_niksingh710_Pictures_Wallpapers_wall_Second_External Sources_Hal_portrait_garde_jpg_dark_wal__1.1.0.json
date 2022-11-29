@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/Second/External Sources/Hal/portrait/garde.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#090c09",
+        "foreground": "#b4b9b9",
+        "cursor": "#b4b9b9"
+    },
+    "colors": {
+        "color0": "#090c09",
+        "color1": "#5D635F",
+        "color2": "#877657",
+        "color3": "#958F70",
+        "color4": "#B8AA68",
+        "color5": "#3B5682",
+        "color6": "#4A6588",
+        "color7": "#b4b9b9",
+        "color8": "#7d8181",
+        "color9": "#5D635F",
+        "color10": "#877657",
+        "color11": "#958F70",
+        "color12": "#B8AA68",
+        "color13": "#3B5682",
+        "color14": "#4A6588",
+        "color15": "#b4b9b9"
+    }
+}

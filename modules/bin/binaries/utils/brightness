@@ -1,0 +1,20 @@
+#!/bin/sh
+TIME=1000
+[ -f /tmp/brightid ] && ID=`cat /tmp/brightid`
+ID=${ID:-1234}
+send_notification() {
+    brightness=$(echo $(($(brightnessctl g) * 100 / $(brightnessctl m))))
+	brightness=${brightness%.*}
+  notify-send -a "Brightness" -r "$ID" -h int:value:"$brightness" "Brightness: ${brightness}%" -p > /tmp/brightid
+}
+
+case $1 in
+up)
+	brightnessctl s +5%
+#	send_notification $1
+	;;
+down)
+	brightnessctl s 5%-
+#	send_notification $1
+	;;
+esac

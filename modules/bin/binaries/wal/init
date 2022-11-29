@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+
+err(){
+    echo "$1"
+    hash notify-send &>/dev/null && notify-send $@
+    exit
+}
+
+notify(){
+    hash notify-send &>/dev/null || return
+    notify-send $@
+}
+
+check(){
+    [ -f "$LOC"/set-wal ] || err "set-wal command not available"
+}
+
+img="$($LOC/set-wal $@)"
+[ -f "$LOC"/set-pywal ] && "$LOC"/set-pywal "$img"
+
+

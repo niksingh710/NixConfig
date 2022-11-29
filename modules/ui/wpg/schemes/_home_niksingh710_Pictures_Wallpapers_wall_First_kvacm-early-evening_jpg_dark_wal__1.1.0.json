@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/kvacm-early-evening.jpg",
+    "alpha": "83",
+    "special": {
+        "background": "#0e081b",
+        "foreground": "#ec9fee",
+        "cursor": "#ec9fee"
+    },
+    "colors": {
+        "color0": "#0e081b",
+        "color1": "#4F31AD",
+        "color2": "#5D55A4",
+        "color3": "#6963AC",
+        "color4": "#9A28A3",
+        "color5": "#AE31C2",
+        "color6": "#EC1CDD",
+        "color7": "#ec9fee",
+        "color8": "#a56fa6",
+        "color9": "#4F31AD",
+        "color10": "#5D55A4",
+        "color11": "#6963AC",
+        "color12": "#9A28A3",
+        "color13": "#AE31C2",
+        "color14": "#EC1CDD",
+        "color15": "#ec9fee"
+    }
+}

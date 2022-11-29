@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/Second/External Sources/Hal/portrait/citybleary.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#0c0e0f",
+        "foreground": "#d2e1ea",
+        "cursor": "#d2e1ea"
+    },
+    "colors": {
+        "color0": "#0c0e0f",
+        "color1": "#6C8E58",
+        "color2": "#898B78",
+        "color3": "#616F89",
+        "color4": "#9EA0A6",
+        "color5": "#B6BABF",
+        "color6": "#ADC9D9",
+        "color7": "#d2e1ea",
+        "color8": "#939da3",
+        "color9": "#6C8E58",
+        "color10": "#898B78",
+        "color11": "#616F89",
+        "color12": "#9EA0A6",
+        "color13": "#B6BABF",
+        "color14": "#ADC9D9",
+        "color15": "#d2e1ea"
+    }
+}

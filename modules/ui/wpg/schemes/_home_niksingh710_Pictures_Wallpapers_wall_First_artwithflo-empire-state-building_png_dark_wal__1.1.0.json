@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/artwithflo-empire-state-building.png",
+    "alpha": "60",
+    "special": {
+        "background": "#0F092F",
+        "foreground": "#d9d6e4",
+        "cursor": "#d9d6e4"
+    },
+    "colors": {
+        "color0": "#0F092F",
+        "color1": "#984785",
+        "color2": "#A552AB",
+        "color3": "#9C62D4",
+        "color4": "#C54DC1",
+        "color5": "#E6A19E",
+        "color6": "#A7A2E2",
+        "color7": "#d9d6e4",
+        "color8": "#97959f",
+        "color9": "#984785",
+        "color10": "#A552AB",
+        "color11": "#9C62D4",
+        "color12": "#C54DC1",
+        "color13": "#E6A19E",
+        "color14": "#A7A2E2",
+        "color15": "#d9d6e4"
+    }
+}

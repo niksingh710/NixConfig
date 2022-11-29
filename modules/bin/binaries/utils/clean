@@ -1,0 +1,4 @@
+#!/bin/bash
+sleep 10s
+[ -f /tmp/volnotid ] && rm /tmp/volnotid
+[ -f /tmp/brightid ] && rm /tmp/brightid

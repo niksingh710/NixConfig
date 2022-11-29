@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/Second/Nature/Sea Life/clownfish/clownfish_pascal_van_de_vendel.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#0a0c0d",
+        "foreground": "#9fabc1",
+        "cursor": "#9fabc1"
+    },
+    "colors": {
+        "color0": "#0a0c0d",
+        "color1": "#293163",
+        "color2": "#39454A",
+        "color3": "#384C6C",
+        "color4": "#515455",
+        "color5": "#9C270B",
+        "color6": "#D13D0B",
+        "color7": "#9fabc1",
+        "color8": "#6f7787",
+        "color9": "#293163",
+        "color10": "#39454A",
+        "color11": "#384C6C",
+        "color12": "#515455",
+        "color13": "#9C270B",
+        "color14": "#D13D0B",
+        "color15": "#9fabc1"
+    }
+}

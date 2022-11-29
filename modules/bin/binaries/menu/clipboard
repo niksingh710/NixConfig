@@ -1,0 +1,16 @@
+#!/bin/sh
+hash rofi 2>/dev/null || exit
+hash cliphist 2>/dev/null || exit
+pgrep -x rofi &>/dev/null && killall -qs SIGKILL rofi
+
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+
+# making sure all binaries are refreshed
+[ -f "$LOC/conf" ] && . "$LOC/conf"
+
+# This to set bemenu colors
+background='#1a1a1a'
+color5='#268bd2'
+background=${background}ee
+
+cliphist list | "$LOC/menu" -b -c -l 10 -W .4 -i -p "Clipboard" | cliphist decode | wl-copy

@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+WALLPATH="${WALLPATH:-"$HOME/Pictures/Wallpapers"}"
+IFS=$'\n'$'\r'
+
+err(){
+    echo "$1"
+    hash notify-send &>/dev/null && notify-send $@
+    exit
+}
+
+notify(){
+    hash notify-send &>/dev/null || return
+    notify-send $@
+}
+
+check(){
+    hash wbg 2>/dev/null || err "wbg is not installed"
+    [ -d "$WALLPATH" ] || err "This path is not available"
+}
+
+set-wal(){
+    pgrep -x wbg &>/dev/null && killall -s SIGKILL wbg
+    echo "$1" >/tmp/currwal
+    wbg "$1" 
+}
+
+check
+
+arr=($(find $WALLPATH/ -type f \( \
+        -iname \*.jpg -o \
+        -iname \*.png -o \
+        -iname \*.jpeg \)))
+
+len=${#arr[@]}
+imgpath=${arr[$(echo $(( $RANDOM % $len )))]}
+
+if [ $# -eq 1 ]; then
+    if file "$1" | grep -qE 'image|bitmap';then
+      imgpath="`realpath "$1"`"
+    fi
+fi
+
+set-wal "$imgpath" &>/dev/null &
+notify "Wallpaper" "$imgpath" -a "wbg" -i $imgpath -t 2000
+echo "$imgpath"

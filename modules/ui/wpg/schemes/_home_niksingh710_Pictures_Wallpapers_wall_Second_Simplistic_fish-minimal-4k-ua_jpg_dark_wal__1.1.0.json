@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/Second/Simplistic/fish-minimal-4k-ua.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#0d1227",
+        "foreground": "#a8dad3",
+        "cursor": "#a8dad3"
+    },
+    "colors": {
+        "color0": "#0d1227",
+        "color1": "#339091",
+        "color2": "#35A19E",
+        "color3": "#3CB1A9",
+        "color4": "#57A2A5",
+        "color5": "#47C5BB",
+        "color6": "#43C9B9",
+        "color7": "#a8dad3",
+        "color8": "#759893",
+        "color9": "#339091",
+        "color10": "#35A19E",
+        "color11": "#3CB1A9",
+        "color12": "#57A2A5",
+        "color13": "#47C5BB",
+        "color14": "#43C9B9",
+        "color15": "#a8dad3"
+    }
+}

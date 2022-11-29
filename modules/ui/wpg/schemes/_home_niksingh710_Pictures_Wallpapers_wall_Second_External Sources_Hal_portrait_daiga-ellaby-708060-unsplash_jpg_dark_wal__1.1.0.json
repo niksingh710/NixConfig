@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/Second/External Sources/Hal/portrait/daiga-ellaby-708060-unsplash.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#13150a",
+        "foreground": "#d9d7d5",
+        "cursor": "#d9d7d5"
+    },
+    "colors": {
+        "color0": "#13150a",
+        "color1": "#C8955E",
+        "color2": "#B2A291",
+        "color3": "#BBB6AF",
+        "color4": "#C6A892",
+        "color5": "#C4BAB3",
+        "color6": "#BFC0BF",
+        "color7": "#d9d7d5",
+        "color8": "#979695",
+        "color9": "#C8955E",
+        "color10": "#B2A291",
+        "color11": "#BBB6AF",
+        "color12": "#C6A892",
+        "color13": "#C4BAB3",
+        "color14": "#BFC0BF",
+        "color15": "#d9d7d5"
+    }
+}

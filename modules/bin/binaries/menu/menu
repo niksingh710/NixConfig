@@ -1,0 +1,14 @@
+#!/bin/sh
+
+pgrep -x rofi &>/dev/null && killall -q rofi
+hash rofi 2>/dev/null || exit
+
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+
+# making sure all binaries are refreshed
+#[ -f "$LOC/conf" ] && . "$LOC/conf"
+
+#export BEMENU_ARGS=(-i -p '[]=' --tb "$background" --tf "$foreground" --fb "$background" --nb $background --hb "$background" --hf "$color5" "$@" --fn "JetBrains Mono NF 12")
+
+#bemenu "${BEMENU_ARGS[@]}"
+rofi -dmenu "$@"

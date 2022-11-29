@@ -1,0 +1,18 @@
+#!/bin/sh
+
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+
+err(){
+    echo "$1"
+    hash notify-send &>/dev/null && notify-send $@
+    exit
+}
+
+notify(){
+    hash notify-send &>/dev/null || return
+    notify-send $@
+}
+[ -f "$LOC/../wal/init" ] || err "Unable to find wal command"
+
+"$LOC/../wal/init" "$@"
+

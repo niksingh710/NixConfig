@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/era7-city-of-the-amethyst-nights.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#160c25",
+        "foreground": "#f3c5f5",
+        "cursor": "#f3c5f5"
+    },
+    "colors": {
+        "color0": "#160c25",
+        "color1": "#732BCF",
+        "color2": "#9A3DC2",
+        "color3": "#9633E0",
+        "color4": "#A947EC",
+        "color5": "#DF5DFC",
+        "color6": "#23BFD6",
+        "color7": "#f3c5f5",
+        "color8": "#aa89ab",
+        "color9": "#732BCF",
+        "color10": "#9A3DC2",
+        "color11": "#9633E0",
+        "color12": "#A947EC",
+        "color13": "#DF5DFC",
+        "color14": "#23BFD6",
+        "color15": "#f3c5f5"
+    }
+}

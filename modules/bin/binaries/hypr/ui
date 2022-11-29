@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# This will set the border colors according to wall
+
+hyprctl keyword general:col.border_size 8 &>/dev/null
+hyprctl keyword general:col.inactive_border 0x00000000 &>/dev/null
+
+foreground='#ff0000'
+cursor='#ff0000'
+[ -f "$HOME/.config/wpg/templates/colors.sh" ] && . "$HOME/.config/wpg/templates/colors.sh"
+
+acolor=`echo $foreground | sed 's/#//g'`
+ccolor=`echo $cursor | sed 's/#//g'`
+echo $acolor
+hyprctl keyword general:col.active_border "0xff$acolor" &>/dev/null
+hyprctl keyword dwindle:col.group_border_active "0xff$ccolor" &>/dev/null
+hyprctl keyword dwindle:col.group_border "0x11$ccolor" &>/dev/null

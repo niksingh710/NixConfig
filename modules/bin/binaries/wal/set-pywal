@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+err(){
+    echo "$1"
+    hash notify-send &>/dev/null && notify-send "$@"
+    exit
+}
+
+notify(){
+    hash notify-send &>/dev/null || return 
+    notify-send "$@"
+}
+
+check(){
+    hash wpg 2>/dev/null || err "wpg is not installed"
+}
+
+set-pywal(){
+    pgrep -x wpg &>/dev/null && killall -s SIGKILL wpg
+    wpg -ns "$1"
+    #[ -f "$HOME/binaries/utils/wbar" ] && "$HOME/binaries/utils/wbar"
+    hash wal-telegram 2>/dev/null && wal-telegram --wal -r -g &>/dev/null
+    hash pywal-discord 2>/dev/null && pywal-discord 
+    hash makoctl 2>/dev/null && makoctl reload
+}
+check
+imgpath="$1"
+ID=$(notify "Generating Colorscheme" -i "$imgpath" -u critical -p -t 0)
+set-pywal "$imgpath" &>/dev/null 
+notify "Successfully Generated Colorscheme" -i "$imgpath" -u low -r $ID

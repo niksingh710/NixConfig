@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/Second/External Sources/Unknown Artists/Summer/summer_on_the_lake_noon_5120x2880.png",
+    "alpha": "60",
+    "special": {
+        "background": "#352824",
+        "foreground": "#e1f1f0",
+        "cursor": "#e1f1f0"
+    },
+    "colors": {
+        "color0": "#352824",
+        "color1": "#A6A8A1",
+        "color2": "#D7D1BA",
+        "color3": "#B1D3CE",
+        "color4": "#BAEEEB",
+        "color5": "#F6EECE",
+        "color6": "#E2E2DB",
+        "color7": "#e1f1f0",
+        "color8": "#9da8a8",
+        "color9": "#A6A8A1",
+        "color10": "#D7D1BA",
+        "color11": "#B1D3CE",
+        "color12": "#BAEEEB",
+        "color13": "#F6EECE",
+        "color14": "#E2E2DB",
+        "color15": "#e1f1f0"
+    }
+}

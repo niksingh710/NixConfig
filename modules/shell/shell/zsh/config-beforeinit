@@ -1,0 +1,33 @@
+# This is zsh default config
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+
+[ -f "$LOC"/plugins/zsh-snap/znap.zsh ] || {
+  git clone\
+    --depth 1 -- \
+    https://github.com/marlonrichert/zsh-snap.git \
+    $LOC/plugins/zsh-snap
+}
+
+[ -f "$LOC"/plugins/zsh-snap/znap.zsh ] && {
+  source $LOC/plugins/zsh-snap/znap.zsh
+
+  znap install ohmyzsh/ohmyzsh
+  znap source ohmyzsh/ohmyzsh plugins/{colored-man-pages,sudo}
+  znap source zsh-users/zsh-autosuggestions
+  znap source z-shell/F-Sy-H
+  znap source chrissicool/zsh-256color
+  znap source jeffreytse/zsh-vi-mode
+
+  prompt-init(){
+    znap eval starship 'starship init zsh --print-full-init'
+    prompt_starship_precmd
+    znap prompt
+  }
+  hash starship 2>/dev/null && prompt-init || echo "starship missing"
+}
+
+
+[ -d "$LOC"/completions ] && fpath+=("$LOC"/completions/)
+
+setopt INC_APPEND_HISTORY
+setopt HIST_IGNORE_SPACE

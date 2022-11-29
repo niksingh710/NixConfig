@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/joeyjazz-just-a-tree-and-a-breeze.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#0A1C2A",
+        "foreground": "#9da4ca",
+        "cursor": "#9da4ca"
+    },
+    "colors": {
+        "color0": "#0A1C2A",
+        "color1": "#8A3255",
+        "color2": "#A63756",
+        "color3": "#BB4457",
+        "color4": "#053887",
+        "color5": "#074B92",
+        "color6": "#225D9F",
+        "color7": "#9da4ca",
+        "color8": "#6d728d",
+        "color9": "#8A3255",
+        "color10": "#A63756",
+        "color11": "#BB4457",
+        "color12": "#053887",
+        "color13": "#074B92",
+        "color14": "#225D9F",
+        "color15": "#9da4ca"
+    }
+}

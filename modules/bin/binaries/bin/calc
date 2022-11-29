@@ -1,0 +1,18 @@
+#!/bin/bash
+
+err(){
+    echo "$1"
+    hash notify-send 2>/dev/null && notify-send "$1"
+    exit
+}
+
+run-qalc(){
+    hash qalc 2>/dev/null || err "qalc Not found"
+    qalc
+}
+
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+
+[ -f "$LOC/../menu/math" ] || run-qalc
+
+"$LOC/../menu/math" -- -c -W .3 -l -1

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/romen-deva-awakening.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#020211",
+        "foreground": "#f1c3e1",
+        "cursor": "#f1c3e1"
+    },
+    "colors": {
+        "color0": "#020211",
+        "color1": "#382585",
+        "color2": "#503292",
+        "color3": "#6F49A7",
+        "color4": "#975FB6",
+        "color5": "#BC5AAE",
+        "color6": "#E079C5",
+        "color7": "#f1c3e1",
+        "color8": "#a8889d",
+        "color9": "#382585",
+        "color10": "#503292",
+        "color11": "#6F49A7",
+        "color12": "#975FB6",
+        "color13": "#BC5AAE",
+        "color14": "#E079C5",
+        "color15": "#f1c3e1"
+    }
+}

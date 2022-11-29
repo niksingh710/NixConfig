@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/Second/Nature/Plants/sacred_bamboo.jpg",
+    "alpha": "60",
+    "special": {
+        "background": "#0A0D0C",
+        "foreground": "#9b9e9d",
+        "cursor": "#9b9e9d"
+    },
+    "colors": {
+        "color0": "#0A0D0C",
+        "color1": "#4D2B31",
+        "color2": "#542C30",
+        "color3": "#4E3B3F",
+        "color4": "#1C4134",
+        "color5": "#34423D",
+        "color6": "#394643",
+        "color7": "#9b9e9d",
+        "color8": "#6c6e6d",
+        "color9": "#4D2B31",
+        "color10": "#542C30",
+        "color11": "#4E3B3F",
+        "color12": "#1C4134",
+        "color13": "#34423D",
+        "color14": "#394643",
+        "color15": "#9b9e9d"
+    }
+}

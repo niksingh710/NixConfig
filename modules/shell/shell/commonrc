@@ -1,0 +1,6 @@
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+[ -f "$LOC"/func ] && . "$LOC"/func
+[ -f "$LOC"/path ] && . "$LOC"/path
+[ -f "$LOC"/alias ] && . "$LOC"/alias
+[ -f "$HOME"/.config/wpg/sequences ] && cat "$HOME"/.config/wpg/sequences
+

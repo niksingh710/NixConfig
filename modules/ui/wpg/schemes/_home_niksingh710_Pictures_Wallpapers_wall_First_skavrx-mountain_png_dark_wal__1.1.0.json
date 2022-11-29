@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/Wallpapers/wall/First/skavrx-mountain.png",
+    "alpha": "60",
+    "special": {
+        "background": "#100b1a",
+        "foreground": "#edcbdb",
+        "cursor": "#edcbdb"
+    },
+    "colors": {
+        "color0": "#100b1a",
+        "color1": "#FDA36A",
+        "color2": "#65438B",
+        "color3": "#9F5F9A",
+        "color4": "#C25DA3",
+        "color5": "#E9A1AD",
+        "color6": "#F0BBB0",
+        "color7": "#edcbdb",
+        "color8": "#a58e99",
+        "color9": "#FDA36A",
+        "color10": "#65438B",
+        "color11": "#9F5F9A",
+        "color12": "#C25DA3",
+        "color13": "#E9A1AD",
+        "color14": "#F0BBB0",
+        "color15": "#edcbdb"
+    }
+}
